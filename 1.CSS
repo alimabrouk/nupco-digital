@@ -27,5 +27,30 @@ label.rating-label,
 label.rating-label,
   .neb-rating-html-implementation neb-rating .neb-rating-numbersSquare
 .neb-rating-value label.rating-label{
-Border-radius: 10px !important;
+Border-radius: 70px !important;
+}
+
+div.LogoHeight20 .img-responsive {
+max-Height: 20px !important;
+} 
+div.LogoHeight30 .img-responsive {
+max-Height: 30px !important;
+} 
+div.LogoHeight31 .img-responsive {
+max-Height: 31px !important;
+} 
+div.LogoHeight32 .img-responsive {
+max-Height: 32px !important;
+}  
+div.LogoHeight33 .img-responsive {
+max-Height: 33px !important;
+}  
+div.LogoHeight34 .img-responsive {
+max-Height: 34px !important;
+}  
+div.LogoHeight35 .img-responsive {
+max-Height: 35px !important;
+}  
+div.LogoHeight40 .img-responsive {
+max-Height:40px !important;
 }
