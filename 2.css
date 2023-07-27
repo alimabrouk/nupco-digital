@@ -3,11 +3,6 @@
    margin-bottom: 20px !important;
 }
 
-@face-font {
-      font-family: "Co Headline" !important;
-      src: url
-(“https://fonts.cdnfonts.com/css/co-headline”);
-} 
 
 
 #liveForm .btn, #liveForm div > label, #liveForm div > span,
