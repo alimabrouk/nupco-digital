@@ -23,3 +23,8 @@ font-family: "Co Headline" !important;
 [class*=control-label"] {
 font-weight:bold !important;
 }
+
+#liveForm .kpl_builder .pageRepeater .neb-web-component, #liveForm
+.kpl_builder .kpl-thankYouHolder .neb-web-component {
+   margin-bottom: 50px !important;
+}
