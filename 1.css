@@ -21,21 +21,56 @@
 font-family: "Co Headline" !important;
      } 
 
-.neb-rating-html-implementation neb-rating .neb-rating.numbers
-label.rating-label,
-  .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle
-label.rating-label,
-  .neb-rating-html-implementation neb-rating .neb-rating-numbersSquare
-.neb-rating-value label.rating-label{
-Border-radius: 70px !important;
-}
+/******************************************/
+/* main definition of rating scale objects*/
+/******************************************/
+/* background:  changes colour of background behind text */
+/* note that there may be more than one background property set to handle various browsers and capabilities */
+/* color: changes colour of text */
+/* background: changes colour of background: */
+/* height: changes the height of the box or circle but will need the !important property set e.g. height: 29px !important */
+/* widht: changes the width of the box or circle but will need the !important property set e.g. width: 29px !important */
+/* This next section alters background colours for unselected or neutral state */
+/* default colours */
+/* On = 5985f7 client = ??????*/
+/* hover = 4769c5 client = ??????*/
+/* selected = 5985f7 client = ??????*/
 
-.neb-rating-implementation neb-rating .neb-rating.numbers
-label.rating-label,
- .neb-rating-html-implementation neb-rating .neb-rating .neb-rating.numbersCircle
-label.rating-label,
-  .neb-rating-html-implementation neb.rating .neb-rating.numbersSquare
-.neb-rating-value label.rating-label{
-height: 100px !important;
-width: 100px !important;
-}
+.neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label,
+ .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label,
+  .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label {
+  height: 29px; /* adjust height but add !important to activate it or this setting will be ignored */
+  width: 29px; /* adjust width but add !important to activate it or this setting will be ignored */
+  background: #D4D4D4; /* background colour*/
+  color: #313139; /* text colour unselected */
+  font-weight: 400;
+  border-radius: 100%;
+  font-size: 16px; }
+  
+  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label span.native-display-value-in-rating, .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label span.native-display-value-in-rating, .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label span.native-display-value-in-rating {
+    display: block;
+    text-align: center; }
+  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label input[type="radio"], .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label input[type="radio"], .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label input[type="radio"] {
+    top: -100%; }
+
+/* The following colour changes are for default colours across all styles but are */
+/* overridden by selectors further down */
+  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label.on, .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label.on, .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.on {
+    background: #1c2346;
+    color: #FFF !important; }
+  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label.hover, .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label.hover, .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.hover {
+    background: #1c2346;
+    color: #FFF !important; }
+  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label.selected, .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label.selected, .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.selected {
+    background: #1c2346;
+    color: #FFF !important;
+    background: #1c2346;
+    background: radial-gradient(ellipse at center, #1c2346 60%, #1c2346 62%);
+    background: -webkit-radial-gradient(center, ellipse cover, #1c2346 60%, #1c2346 62%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$core-color', endColorstr='$border-color', GradientType=1); }
+ 
+  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label:before, .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label:before, .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label:before {
+    display: inline-block;
+    vertical-align: middle;
+    height: 20px;
+    padding-left: 10px; }
