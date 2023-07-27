@@ -29,3 +29,13 @@ label.rating-label,
 .neb-rating-value label.rating-label{
 Border-radius: 70px !important;
 }
+
+.neb-rating-implementation neb-rating .neb-rating.numbers
+label.rating-label,
+ .neb-rating-html-implementation neb-rating .neb-rating .neb-rating.numbersCircle
+label.rating-label,
+  .neb-rating-html-implementation neb.rating .neb-rating.numbersSquare
+.neb-rating-value label.rating-label{
+height: 100px !important;
+width: 100px !important;
+}
