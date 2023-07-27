@@ -21,41 +21,8 @@
 font-family: "Co Headline" !important;
      } 
 
-.neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label,
- .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label,
-  .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label {
-  height: 29px; /* adjust height but add !important to activate it or this setting will be ignored */
-  width: 29px; /* adjust width but add !important to activate it or this setting will be ignored */
-  background: #D4D4D4; /* background colour*/
-  color: #313139; /* text colour unselected */
-  font-weight: 400;
-  border-radius: 100%;
-  font-size: 16px; }
-  
-  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label span.native-display-value-in-rating, .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label span.native-display-value-in-rating, .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label span.native-display-value-in-rating {
-    display: block;
-    text-align: center; }
-  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label input[type="radio"], .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label input[type="radio"], .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label input[type="radio"] {
-    top: -100%; }
-
-/* The following colour changes are for default colours across all styles but are */
-/* overridden by selectors further down */
-  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label.on, .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label.on, .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.on {
-    background: #1c2346;
-    color: #FFF !important; }
-  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label.hover, .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label.hover, .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.hover {
-    background: #1c2346;
-    color: #FFF !important; }
-  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label.selected, .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label.selected, .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label.selected {
-    background: #1c2346;
-    color: #FFF !important;
-    background: #1c2346;
-    background: radial-gradient(ellipse at center, #1c2346 60%, #1c2346 62%);
-    background: -webkit-radial-gradient(center, ellipse cover, #1c2346 60%, #1c2346 62%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$core-color', endColorstr='$border-color', GradientType=1); }
- 
-  .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label:before, .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label:before, .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label:before {
-    display: inline-block;
-    vertical-align: middle;
-    height: 20px;
-    padding-left: 10px; }
+.myRatingsClass {
+	--palette-action-active: #4455CC; /*selected, represents the background color of the element*/
+	--palette-action-hover: #4455CC; /*hover/focus, represents the border of the highlighted element (Outline property)*/
+	--palette-rating-custom-hover:#1C2346;  /*inner color on hover/focus*/
+	--palette-rating-custom-selected: #1C2346; /*inner color on select*/ }
