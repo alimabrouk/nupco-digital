@@ -20,3 +20,12 @@
 #liveForm .native-display-value-in-rating{
 font-family: "Co Headline" !important;
      } 
+
+.neb-rating-html-implementation neb-rating .neb-rating.numbers
+label.rating-label,
+  .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle
+label.rating-label,
+  .neb-rating-html-implementation neb-rating .neb-rating-numbersSquare
+.neb-rating-value label.rating-label{
+Border-radius: 10px !important;
+}
