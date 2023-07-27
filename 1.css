@@ -21,21 +21,6 @@
 font-family: "Co Headline" !important;
      } 
 
-/******************************************/
-/* main definition of rating scale objects*/
-/******************************************/
-/* background:  changes colour of background behind text */
-/* note that there may be more than one background property set to handle various browsers and capabilities */
-/* color: changes colour of text */
-/* background: changes colour of background: */
-/* height: changes the height of the box or circle but will need the !important property set e.g. height: 29px !important */
-/* widht: changes the width of the box or circle but will need the !important property set e.g. width: 29px !important */
-/* This next section alters background colours for unselected or neutral state */
-/* default colours */
-/* On = 5985f7 client = ??????*/
-/* hover = 4769c5 client = ??????*/
-/* selected = 5985f7 client = ??????*/
-
 .neb-rating-html-implementation neb-rating .neb-rating.numbers label.rating-label,
  .neb-rating-html-implementation neb-rating .neb-rating.numbersCircle label.rating-label,
   .neb-rating-html-implementation neb-rating .neb-rating.numbersSquare .neb-rating-value label.rating-label {
