@@ -20,7 +20,7 @@
 #liveForm .native-display-value-in-rating{
 font-family: "Co Headline" !important;
      } 
-
+:root{ --typography-headline-size: 200px; /* Label font size */ }
 .myRatingsClass {
 	--palette-action-active: #4455CC; /*selected, represents the background color of the element*/
 	--palette-action-hover: #4455CC; /*hover/focus, represents the border of the highlighted element (Outline property)*/
