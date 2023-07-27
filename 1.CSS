@@ -2,3 +2,21 @@
 .kpl_builder .kpl-thankYouHolder .neb-web-component {
    margin-bottom: 200px !important;
 }
+
+@face-font {
+      font-family: "Co Headline" !important;
+      src: url
+(“https://fonts.cdnfonts.com/css/co-headline”);
+      } 
+
+
+#liveForm .btn, #liveForm div > label, #liveForm div > span,
+#liveForm .neb-select .neb-content.native-arrow select,#liveForm
+.kpl_builder .kpl-thank-you .kpl-thankYouHolder
+.thankYouPageLogoPreviewText {
+     font-family: "Co Headline" !important;
+}
+
+#liveForm .native-display-value-in-rating{
+font-family: "Co Headline" !important;
+     } 
