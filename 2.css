@@ -8,8 +8,8 @@
 :root{ --typography-headline-size: 22px; /* Label font size */ }
 
 .myRatingsClass {
-	--palette-rating-number-hover: #f9ff33; /* border color (box-shadow property)*/
-	--palette-rating-number-selected: #f9ff33; /*background-color /*(inner color of the squares/circles)*/ 
-	--palette-rating-number-text-hover: #f9ff33; /* color of text during hover 
-	--palette-rating-number-text-selected: #f9ff33; /* color of text when selected
+	--palette-rating-number-hover: #1c2346; /* border color (box-shadow property)*/
+	--palette-rating-number-selected: #1c2346; /*background-color /*(inner color of the squares/circles)*/ 
+	--palette-rating-number-text-hover: #1c2346; /* color of text during hover 
+	--palette-rating-number-text-selected: #1c2346; /* color of text when selected
 }
