@@ -7,5 +7,5 @@
 	--palette-rating-number-text-hover: #1C2346; /* color of text during hover 
 	--palette-rating-number-text-selected: #1C2346; /* color of text when selected
 
-.ratingMinLabel { --typography-body-size: 9px; }
-.ratingMaxLabel { --typography-body-size: 9px; }
+.ratingMinLabel { font-size: 9px; }
+.ratingMaxLabel { font-size: 9px; }
