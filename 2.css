@@ -7,8 +7,8 @@
 
 :root{ --typography-headline-size: 22px; /* Label font size */ }
 
-.Ratingscale {
-	--palette-action-active: #1C2346; /*selected, represents the background color of the element*/
-	--palette-action-hover: #1C2346; /*hover/focus, represents the border of the highlighted element (Outline property)*/
-	--palette-rating-custom-hover:#1C2346;  /*inner color on hover/focus*/
-	--palette-rating-custom-selected: #1C2346; /*inner color on select*/ }
+.myRatingsClass {
+	--palette-rating-number-hover: #F9FF33; /* border color (box-shadow property)*/
+	--palette-rating-number-selected: #F9FF33; /*background-color /*(inner color of the squares/circles)*/
+	--palette-rating-number-text-hover: #F9FF33; /* color of text during hover 
+	--palette-rating-number-text-selected: #F9FF33; /* color of text when selected }
