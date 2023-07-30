@@ -14,15 +14,11 @@
 	--palette-rating-number-hover: #1C2346; /* border color (box-shadow property)*/
 	--palette-rating-number-selected: #1C2346; /*background-color /*(inner color of the squares/circles)*/ 
 	--palette-rating-number-text-hover: #1C2346; /* color of text during hover 
-	--palette-rating-number-text-selected: #1C2346; /* color of text when selected }
-
-
-.neb-rating-implementation neb-rating .neb-rating.numbers
-label.rating-label,
- .neb-rating-html-implementation neb-rating .neb-rating .neb-rating.numbersCircle
-label.rating-label,
-  .neb-rating-html-implementation neb.rating .neb-rating.numbersSquare
-.neb-rating-value label.rating-label{
-height: 30px !important;
-width: 30px !important;
+	--palette-rating-number-text-selected: #1C2346; /* color of text when selected 
+	width: 70px;
+	height: 70px;
+	border-radius: 70px;
 }
+
+
+
