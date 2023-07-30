@@ -1,12 +1,3 @@
-@font-face {
-font-family: Neo Sans Arabic;
-src: url("https://fonts.cdnfonts.com/s/29926/Neo Sans Arabic Regular.woff") format("woff");
-    }
-    
-:root{
-	--typography-fontFamily: ' Neo Sans Arabic', sans-serif;
-
-
 :root{ --typography-headline-size: 20px; /* Label font size */ }
 
 
