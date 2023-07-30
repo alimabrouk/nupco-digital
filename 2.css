@@ -4,3 +4,5 @@
 }
 :root{
 	--typography-fontFamily: Co Headline; } 
+
+:root{ --typography-headline-size: 200px; /* Label font size */ }
