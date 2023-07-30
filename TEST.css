@@ -1,12 +1,10 @@
 @font-face {
-    font-family: 'Co Headline Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Co Headline Light'), url('Co Headline Light.woff') format('woff');
+    font-family: Co Headline Light;
+    src: url('Co Headline Light.woff') format('woff');
     }
     
 :root{
-	--typography-fontFamily: 'Co Headline Regular'; 
+	--typography-fontFamily: 'Co Headline Light'; 
 }
 
 
