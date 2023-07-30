@@ -1,10 +1,11 @@
 @font-face {
-	font-family: Sparker;
-	src: url(https://fonts.cdnfonts.com/css/sparker);
+	font-family: 'Co Headline Regular';
+	src: url('Co Headline.woff') format('woff');
 }
 :root{
-	--typography-fontFamily: 'Sparker'; 
+	--typography-fontFamily: 'Co Headline Regular'; 
 }
+
 
 :root{ --typography-headline-size: 22px; /* Label font size */ }
 
