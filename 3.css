@@ -12,3 +12,6 @@
 	--palette-action-hover: #F9FF33; /*hover/focus, represents the border of the highlighted element (Outline property)*/
 	--palette-rating-custom-hover:#F9FF33;  /*inner color on hover/focus*/
 	--palette-rating-custom-selected: #F9FF36; /*inner color on select*/ }
+
+:root
+{   --powered-by-display: none; }
