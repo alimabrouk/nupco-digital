@@ -16,7 +16,9 @@
 	--palette-rating-number-text-hover: #1C2346; /* color of text during hover 
 	--palette-rating-number-text-selected: #1C2346; /* color of text when selected
 
+.ratingMinLabel { 5px:bold; }
+
 .image {
-  width: 200px;
+  width: 500px;
   height: 150px;
 }
