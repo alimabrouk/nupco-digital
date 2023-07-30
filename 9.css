@@ -3,7 +3,7 @@
 	src: url(https://fonts.cdnfonts.com/css/co-headline);
 }
 :root{
-	--typography-fontFamily: Co Headline; }
+	--typography-fontFamily: "Co Headline"; }
 
 :root{ --typography-headline-size: 22px; /* Label font size */ }
 
