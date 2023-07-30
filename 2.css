@@ -6,3 +6,9 @@
 	--typography-fontFamily: Co Headline; } 
 
 :root{ --typography-headline-size: 22px; /* Label font size */ }
+
+.myRatingsClass {
+	--palette-action-active: #F9FF33; /*selected, represents the background color of the element*/
+	--palette-action-hover: #F9FF33; /*hover/focus, represents the border of the highlighted element (Outline property)*/
+	--palette-rating-custom-hover:#F9FF33;  /*inner color on hover/focus*/
+	--palette-rating-custom-selected: #F9FF36; /*inner color on select*/ }
