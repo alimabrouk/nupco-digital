@@ -3,12 +3,13 @@
 	src: url(https://fonts.cdnfonts.com/css/co-headline);
 }
 :root{
-	--typography-fontFamily: Co Headline; } 
+	--typography-fontFamily: Co Headline; }
 
 :root{ --typography-headline-size: 22px; /* Label font size */ }
 
 .myRatingsClass {
 	--palette-rating-number-hover: #f9ff33; /* border color (box-shadow property)*/
-	--palette-rating-number-selected: #f9ff33; /*background-color /*(inner color of the squares/circles)*/ }
+	--palette-rating-number-selected: #f9ff33; /*background-color /*(inner color of the squares/circles)*/ 
 	--palette-rating-number-text-hover: #f9ff33; /* color of text during hover 
 	--palette-rating-number-text-selected: #f9ff33; /* color of text when selected
+}
