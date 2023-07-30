@@ -17,4 +17,4 @@
 	--palette-rating-number-text-selected: #1C2346; /* color of text when selected }
 
 
-.ratingMinLabel { font-size:10px; }
+.ratingMinLabel { font-weight:bold; }
