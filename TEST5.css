@@ -6,5 +6,5 @@
 	--palette-rating-number-selected: #1C2346; /*background-color /*(inner color of the squares/circles)*/ }
 	--palette-rating-number-text-hover: #1C2346; /* color of text during hover 
 	--palette-rating-number-text-selected: #1C2346; /* color of text when selected
-.ratingMinLabel { font-weight:bold; }
-.ratingMaxLabel { font-weight:bold; }
+.ratingMinLabel { --typography-body-size:9px; }
+.ratingMaxLabel { --typography-body-size:9px; }
