@@ -11,7 +11,7 @@
 {   --powered-by-display: none; }
 
 .myRatingsClass {
-	--palette-action-active: #f1C232; /*selected, represents the background color of the element*/
-	--palette-action-hover: #f1C232; /*hover/focus, represents the border of the highlighted element (Outline property)*/
+	--palette-action-active: #F9FF33; /*selected, represents the background color of the element*/
+	--palette-action-hover: #F9FF33; /*hover/focus, represents the border of the highlighted element (Outline property)*/
 	--palette-rating-custom-hover:#F9FF33;  /*inner color on hover/focus*/
 	--palette-rating-custom-selected: #F9FF36; /*inner color on select*/ }
