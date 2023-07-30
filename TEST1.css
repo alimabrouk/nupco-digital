@@ -9,8 +9,9 @@ src: url("https://fonts.cdnfonts.com/s/29926/Neo Sans Arabic Regular.woff") form
 
 :root{ --typography-headline-size: 20px; /* Label font size */ }
 
+
 .CSAT1 {
-	--palette-action-active: #4455CC; /*selected, represents the background color of the element*/
-	--palette-action-hover: #4455CC; /*hover/focus, represents the border of the highlighted element (Outline property)*/
-	--palette-rating-custom-hover:#F9FF33;  /*inner color on hover/focus*/
-	--palette-rating-custom-selected: #F9FF36; /*inner color on select*/ }
+	--palette-rating-number-hover: #F9FF33; /* border color (box-shadow property)*/
+	--palette-rating-number-selected: #F9FF33; /*background-color /*(inner color of the squares/circles)*/ }
+	--palette-rating-number-text-hover: #F9FF33; /* color of text during hover 
+	--palette-rating-number-text-selected: #F9FF33; /* color of text when selected
