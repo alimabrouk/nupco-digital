@@ -5,7 +5,7 @@
 :root{
 	--typography-fontFamily: Co Headline, sans-serif; }
 
-:root{ --typography-headline-size: 10px; /* Label font size */ }
+:root{ --typography-headline-size: 22px; /* Label font size */ }
 
 :root
 {   --powered-by-display: none; }
