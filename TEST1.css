@@ -7,21 +7,10 @@ src: url("https://fonts.cdnfonts.com/s/29926/Neo Sans Arabic Regular.woff") form
 	--typography-fontFamily: ' Neo Sans Arabic', sans-serif;
 
 
-:root{ --typography-headline-size: 22px; /* Label font size */ }
-
-:root
-{   --powered-by-display: none; }
+:root{ --typography-headline-size: 20px; /* Label font size */ }
 
 .csat {
-	--palette-rating-number-hover: #1C2346; /* border color (box-shadow property)*/
-	--palette-rating-number-selected: #1C2346; /*background-color /*(inner color of the squares/circles)*/ 
-	--palette-rating-number-text-hover: #1C2346; /* color of text during hover 
-	--palette-rating-number-text-selected: #1C2346; /* color of text when selected 
-}
-
-#liveForm .kpl_builder .pageRepeater .neb-web-component, #liveForm
-.kpl_builder .kpl-thankYouHolder .neb-web-component {
-   margin-bottom: 20px !important;
-}
-
-
+	--palette-rating-number-hover: #C4C4C1; /* border color (box-shadow property)*/
+	--palette-rating-number-selected: #C4C4C1; /*background-color /*(inner color of the squares/circles)*/ }
+	--palette-rating-number-text-hover: #C4C4C1; /* color of text during hover 
+	--palette-rating-number-text-selected: #C4C4C1; /* color of text when selected
