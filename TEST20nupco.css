@@ -1,3 +1,8 @@
+._2HCegihyidYXE6c3Ak2Vua {
+    max-width: 250px;
+    max-height: 150px;
+    margin-bottom: -20px;
+}
 ._2tHW0cyET9DNu6CMvxGOlL p:last-of-type {
     text-align: right;
     margin-right: 21px !important;
@@ -30,7 +35,7 @@
 }
 
 @face-font {
-      font-family: CoHeadline ;
+      font-family: "CoHeadline" ;
       src: url("https://mtrcs.io/fonts/Co_Headline.otf");
       } 
 
@@ -39,6 +44,11 @@ background-color:#1C2346 !important;
 height: 16% !important;
 border-style: solid;
 border-color: #1C2346 #1C2346 #E3151C #1C2346;
+}
+
+._1De-hWu2XrYnO5hnFIWYwJ surveyBtn surveyBtn_submit{
+border-style: solid;
+border-color: #1C2346;
 }
 
 ._3qavF1mE7wQGkoUgHE1D75 {
