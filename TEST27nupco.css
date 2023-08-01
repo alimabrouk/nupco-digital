@@ -36,7 +36,7 @@
 
 @face-font {
       font-family: "CoHeadline" ;
-      src: url("https://mtrcs.io/fonts/Co_Headline.otf");
+      src: url("https://mtrcs.io/fonts/Co_Headline.otf")format('otf');;
       } 
 
 ._1SPV2GZjz0ekDKiu5qBJ16{
