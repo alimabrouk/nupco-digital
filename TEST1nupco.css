@@ -18,6 +18,11 @@
     margin-right: 30px !important;
 }
 
+@face-font {
+      font-family: "Co Headline" !important;
+      src: url
+("https://newmetricssandbox.eu.qualtrics.com/ControlPanel/File.php?F=F_8KGqK9AgAafEY9M&download=1");
+      } 
 
 ._1SPV2GZjz0ekDKiu5qBJ16{
 background-color:#1C2346 !important;
@@ -31,7 +36,7 @@ background-color: #E06E0E;
 display: inline-block !important;
 width: 200px;}
 
-
+:root{	--typography-fontFamily: Co Headline; } 
 :root{ --typography-headline-size: 15px; /* Label font size */ }
 
 
