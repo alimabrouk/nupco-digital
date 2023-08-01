@@ -35,7 +35,7 @@
 }
 
 @font-face {
-   font-family: myFirstFont;
+   font-family: myFirstFont1;
    src: url(https://mtrcs.io/fonts/Co_Headline.otf);
    font-weight: bold;
 }
@@ -59,7 +59,7 @@ background-color: #E06E0E;
 display: inline-block !important;
 width: 200px;}
 
-:root{	--typography-fontFamily: myFirstFont; } 
+:root{	--typography-fontFamily: myFirstFont1; } 
 :root{ --typography-headline-size: 15px; /* Label font size */ }
 
 
