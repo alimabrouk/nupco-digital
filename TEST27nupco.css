@@ -62,8 +62,8 @@ width: 200px;}
 :root{	--typography-fontFamily: myFirstFont1; } 
 :root{ --typography-headline-size: 15px; /* Label font size */ }
 
-.Text1{
-	font-family:myFistFont1;
+.Text1 {
+  font-family: myFistFont1 !important;
 }
 
 .CSAT1 {
