@@ -1,3 +1,11 @@
+@font-face {
+	font-family: Co Headline;
+	src: url('https://fonts.cdnfonts.com/css/co-headline);
+}
+:root{
+	--typography-fontFamily:'Co Headline', sans-serif; }
+
+
 ._2tHW0cyET9DNu6CMvxGOlL p:last-of-type {
     text-align: right;
     margin-right: 21px !important;
