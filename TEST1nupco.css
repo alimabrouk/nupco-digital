@@ -43,7 +43,7 @@ width: 200px;}
 .CSAT1 {
 	--palette-rating-number-hover: #1C2346; /* border color (box-shadow property)*/
 	--palette-rating-number-selected: #1C2346; /*background-color /*(inner color of the squares/circles)*/ 
-	--typography-body-size: 9px; }
+	--typography-body-size: 12px; }
 	--palette-rating-number-text-hover: #1C2346; /* color of text during hover 
 	--palette-rating-number-text-selected: #1C2346; /* color of text when selected
 }
