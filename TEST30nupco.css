@@ -74,6 +74,12 @@ span {
   font-family: CoHeading !important;
 }
 
+<style>
+._37oPR5iD8dKjivrJy_y6Vq :after, ._1_7PScJ_jiqe-TBSrlCh24 :after {
+   
+    margin-top: -5px !important;
+}
+
 .CSAT1 {
 	--palette-rating-number-hover: #1C2346; /* border color (box-shadow property)*/
 	--palette-rating-number-selected: #1C2346; /*background-color /*(inner color of the squares/circles)*/ 
