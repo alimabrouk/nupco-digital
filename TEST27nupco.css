@@ -62,6 +62,9 @@ width: 200px;}
 :root{	--typography-fontFamily: myFirstFont1; } 
 :root{ --typography-headline-size: 15px; /* Label font size */ }
 
+.Text1{
+	font-family:myFistFont1;
+}
 
 .CSAT1 {
 	--palette-rating-number-hover: #1C2346; /* border color (box-shadow property)*/
