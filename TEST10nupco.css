@@ -1,17 +1,11 @@
-._2tHW0cyET9DNu6CMvxGOlL p{
+._2tHW0cyET9DNu6CMvxGOlL p:last-of-type {
+    text-align: right;
     margin-right: 21px !important;
 }
 
-
-
 ._2tHW0cyET9DNu6CMvxGOlL p:first-of-type {
-    text-align: left;
-    /* margin-right: 176px !important; */
-}
-
-._2tHW0cyET9DNu6CMvxGOlL p:first-of-type {
-    text-align: left;
-    margin-left: -13px !important;
+    text-align: right;
+    margin-right: 21px !important;
 }
 ._207sw0FPxzBQQBPqaDdUpd{
     margin-left: 350px !important;
@@ -63,5 +57,3 @@ width: 200px;}
 	--palette-rating-number-text-hover: #1C2346; /* color of text during hover 
 	--palette-rating-number-text-selected: #1C2346; /* color of text when selected
 }
-
-
