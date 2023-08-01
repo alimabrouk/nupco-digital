@@ -35,7 +35,7 @@
 }
 
 @font-face {
-   font-family: myFirstFont1;
+   font-family: CoHeading;
    src: url(https://mtrcs.io/fonts/Co_Headline.otf);
    font-weight: bold;
 }
@@ -59,15 +59,15 @@ background-color: #E06E0E;
 display: inline-block !important;
 width: 200px;}
 
-:root{	--typography-fontFamily: myFirstFont1; } 
+:root{	--typography-fontFamily: CoHeading; } 
 :root{ --typography-headline-size: 15px; /* Label font size */ }
 
 .Text1 {
-  font-family: myFistFont1 !important;
+  font-family: CoHeading !important;
 }
 
 span {
-  font-family: Arial;
+  font-family: CoHeading !important;
 }
 
 .CSAT1 {
