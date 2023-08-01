@@ -30,7 +30,7 @@
 }
 
 @face-font {
-      font-family: "Co Headline" !important;
+      font-family: "CoHeadline" ;
       src: url("https://mtrcs.io/fonts/Co_Headline.otf");
       } 
 
@@ -53,7 +53,7 @@ background-color: #E06E0E;
 display: inline-block !important;
 width: 200px;}
 
-:root{	--typography-fontFamily: Co Headline; } 
+:root{	--typography-fontFamily: CoHeadline; } 
 :root{ --typography-headline-size: 15px; /* Label font size */ }
 
 
