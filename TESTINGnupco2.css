@@ -1,5 +1,9 @@
 :root { --questions-spacing: 60px; /* vertical spacing between survey fields */ }
 
+:root{ 
+	--palette-group-inner-mark : #E06E0E; /* mark color for group - checkbox or radio */
+	--palette-group-mark-background: #011638; /* mark background for group - checkbox or radio */ }
+
 ._1De-hWu2XrYnO5hnFIWYwJ {
    border-radius: 6px;
 	
