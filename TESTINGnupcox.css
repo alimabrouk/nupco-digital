@@ -2,7 +2,9 @@
 
 :root{ 
 	--palette-group-inner-mark : #ffffff; /* mark color for group - checkbox or radio */
-	--palette-group-mark-background: #E06E0E; /* mark background for group - checkbox or radio */ }
+	--palette-group-mark-background: #E06E0E; /* mark background for group - checkbox or radio */ 
+        border-style: solid;
+        border-color: green;}
 
 ._1De-hWu2XrYnO5hnFIWYwJ {
    border-radius: 6px;
