@@ -10,13 +10,22 @@
     border-radius: 6px;
 }
 ._3VgxUzppbTclqye69HSxig{
-    margin-top: -10px;
+    margin-top: 15px;
 }
+
+.surveyX { 
+   color: white;
+	 }
+
 ._2HCegihyidYXE6c3Ak2Vua {
     max-width: 250px;
     max-height: 150px;
     margin-bottom: -20px;
     margin-top: 30px;
+}
+
+.Optional{
+    margin-top: -20px;
 }
 ._2tHW0cyET9DNu6CMvxGOlL p:last-of-type {
     text-align: right;
