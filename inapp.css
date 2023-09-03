@@ -1,0 +1,34 @@
+:root { --questions-spacing: 70px; /* vertical spacing between survey fields */ }
+
+:root{ 
+	--palette-group-inner-mark : #ffffff; /* mark color for group - checkbox or radio */
+	--palette-group-mark-background: #E06E0E; /* mark background for group - checkbox or radio */}
+
+ :root { --palette-core-primary: #1C2346; } 
+
+@font-face {
+   font-family: CoHeading;
+   src: url(https://mtrcs.io/fonts/Co_Headline.otf);
+   font-weight: bold;
+}
+
+:root{	--typography-fontFamily: CoHeading; } 
+:root{ --typography-headline-size: 15px; /* Label font size */ }
+
+.Text1 {
+  font-family: CoHeading !important;
+}
+
+span {
+  font-family: CoHeading !important;
+}
+
+
+
+.CSAT {
+	--palette-rating-number-hover: #1C2346; /* border color (box-shadow property)*/
+	--palette-rating-number-selected: #1C2346; /*background-color /*(inner color of the squares/circles)*/ 
+	--typography-body-size: 12px; }
+	--palette-rating-number-text-hover: #1C2346; /* color of text during hover 
+	--palette-rating-number-text-selected: #1C2346; /* color of text when selected
+}
