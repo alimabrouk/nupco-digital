@@ -26,9 +26,9 @@ span {
 
 
 .CSAT {
-	--palette-rating-number-hover: ##e06e0e; /* border color (box-shadow property)*/
-	--palette-rating-number-selected: ##e06e0e; /*background-color /*(inner color of the squares/circles)*/ 
+	--palette-rating-number-hover: #e06e0e; /* border color (box-shadow property)*/
+	--palette-rating-number-selected: #e06e0e; /*background-color /*(inner color of the squares/circles)*/ 
 	--typography-body-size: 12px; }
-	--palette-rating-number-text-hover: ##e06e0e; /* color of text during hover 
-	--palette-rating-number-text-selected: ##e06e0e; /* color of text when selected
+	--palette-rating-number-text-hover: #e06e0e; /* color of text during hover 
+	--palette-rating-number-text-selected: #e06e0e; /* color of text when selected
 }
