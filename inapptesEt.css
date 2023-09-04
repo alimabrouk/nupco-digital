@@ -17,7 +17,7 @@ span {
   font-family: CoHeading !important;
 }
 
-#liveForm .kpl_builder .panel-footer .btn.submit-btn {
+.surveyBtn.surveyBtn_submit{
 background : #E06E0E;
 display: inline-block;
 margin-bottom: 0px;
