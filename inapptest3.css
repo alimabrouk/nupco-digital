@@ -1,0 +1,18 @@
+ :root { --palette-core-primary: #E06E0E; } 
+
+@font-face {
+   font-family: CoHeading;
+   src: url(https://mtrcs.io/fonts/Co_Headline.otf);
+   font-weight: bold;
+}
+
+:root{	--typography-fontFamily: CoHeading; } 
+:root{ --typography-headline-size: 15px; /* Label font size */ }
+
+.Text1 {
+  font-family: CoHeading !important;
+}
+
+span {
+  font-family: CoHeading !important;
+}
