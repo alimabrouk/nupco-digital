@@ -30,14 +30,9 @@ border-radius: 6px;
 font-weight:bold !important;
 }
 
-
-
-
-
-
-._1SPV2GZjz0ekDKiu5qBJ16{
-background-color:#1C2346 !important;
-height: 100% !important;
-border-style: solid;
-border-color: #1C2346 #1C2346 #E3151C #1C2346;
+.Text {
+    background-color: #1C2346; /* Replace with your desired background color */
+    color: #FFFFFF; /* Set text color to ensure readability */
 }
+
+
