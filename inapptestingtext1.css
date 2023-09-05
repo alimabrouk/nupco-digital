@@ -33,6 +33,7 @@ font-weight:bold !important;
 .Text {
     background-color: #1C2346; /* Replace with your desired background color */
     color: #FFFFFF; /* Set text color to ensure readability */
+    border-color: #1C2346 #1C2346 #E3151C #1C2346;  
 }
 
 
