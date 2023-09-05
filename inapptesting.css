@@ -1,0 +1,43 @@
+
+:root { --palette-core-primary: #E06E0E; } 
+
+@font-face {
+   font-family: CoHeading;
+   src: url(https://mtrcs.io/fonts/Co_Headline.otf);
+   font-weight: bold;
+}
+
+:root{	--typography-fontFamily: CoHeading; } 
+:root{ --typography-headline-size: 15px; /* Label font size */ }
+
+.Text1 {
+  font-family: CoHeading !important;
+}
+
+span {
+  font-family: CoHeading !important;
+}
+
+.surveyBtn.surveyBtn_submit{
+background : #E06E0E;
+display: inline-block;
+margin-bottom: 0px;
+font-size: 14px;
+border-radius: 6px; 
+}
+
+.CSAT {
+font-weight:bold !important;
+}
+
+
+
+
+
+
+._1SPV2GZjz0ekDKiu5qBJ16{
+background-color:#1C2346 !important;
+height: 100% !important;
+border-style: solid;
+border-color: #1C2346 #1C2346 #E3151C #1C2346;
+}
