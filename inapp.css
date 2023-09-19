@@ -10,9 +10,6 @@
 :root{	--typography-fontFamily: CoHeading; } 
 :root{ --typography-headline-size: 15px; /* Label font size */ }
 
-.Text1 {
-  font-family: CoHeading !important;
-}
 
 span {
   font-family: CoHeading !important;
