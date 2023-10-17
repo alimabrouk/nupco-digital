@@ -1,8 +1,40 @@
-._1EpgFS91HygfIhhPEQrSz {
-position: relative;
---palette-rating-custom-hover: #8129ed;
---palette-rating-custom-selected: #8129ed;
---palette-typography-body: #8129ed;
---palette-typography-placeholder: #8129ed;
---palette-core-primary: #8129ed;
+
+:root{
+    --palette-group-mark-background:red;
+    --palette-action-hover:red;
+    --palette-action-active:red;
+    --palette-rating-number-selected:violet;
+    --palette-rating-number-hover:violet;
+    --palette-rating-custom-selected:blue;
+    --palette-rating-custom-hover:blue;
+
+}
+
+ 
+
+.logo img{
+    height:15px;
+}
+.surveyBtn_close{
+    display:none;
+}
+.surveyBtn_next{
+    width:150px;
+}
+.surveyBtn_back{
+    border: 1px solid #38AC75;
+    width: 150px;
+}
+ul[role="group"] li{
+    border:none !important;
+}
+ul[role="group"] li:first-child:hover,
+ul[role="group"] li:last-child:hover{
+    border-radius:0px !important;
+}
+.ltrboxscale label{
+    border-radius: 10px !important;
+    height:40px !important;
+    width:30px !important;
+    border-color:blue !important;
 }
