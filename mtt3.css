@@ -1,3 +1,5 @@
+:root { --palette-core-primary: #FFF200; }
+
 .stars {
 position: relative;
 --palette-rating-custom-hover: #8129ed;
