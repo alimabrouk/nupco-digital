@@ -1,5 +1,5 @@
 
-:root{
+:._2BCbSBZTAy3NNEkchW4JAl label{
     --palette-group-mark-background:#3E68D2;
     --palette-action-hover:#ffffff;
     --palette-action-active:#3E68D2;
@@ -10,6 +10,19 @@
     --palette-core-outline:#ffffff;
 
 }
+
+._37oPR5iD8dKjivrJy_y6Vq ._3_foUkwcSeMY2vBraukrvR, ._1_7PScJ_jiqe-TBSrlCh24 ._3_foUkwcSeMY2vBraukrvR{
+    --palette-group-mark-background:#3E68D2;
+    --palette-action-hover:#3E68D2;
+    --palette-action-active:#3E68D2;
+    --palette-rating-number-selected:#3E68D2;
+    --palette-rating-number-hover:#3E68D2;
+    --palette-rating-custom-selected:#3E68D2;
+    --palette-rating-custom-hover:#3E68D2;
+    --palette-core-outline:#3E68D2;
+
+}
+
 
 ._2wEE-RNoShvEqNpNB4ISFm {
 max-width: 100%;
