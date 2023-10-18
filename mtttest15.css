@@ -14,6 +14,8 @@ border-radius: 20px;
     --palette-rating-custom-selected:#3E68D2;
     --palette-rating-custom-hover:#3E68D2;
     --palette-core-outline:#ffffff;
+    --palette-core-primary:#ffffff;
+    --palette-typography-placeholder:#3A3541;
 
 }
 
@@ -26,6 +28,7 @@ border-radius: 20px;
     --palette-rating-custom-selected:#3E68D2;
     --palette-rating-custom-hover:#3E68D2;
     --palette-core-outline:#3E68D2;
+
 
 }
 
