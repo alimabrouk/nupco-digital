@@ -1,12 +1,12 @@
 
 :root{
-    --palette-group-mark-background:red;
-    --palette-action-hover:red;
-    --palette-action-active:red;
-    --palette-rating-number-selected:violet;
-    --palette-rating-number-hover:violet;
-    --palette-rating-custom-selected:blue;
-    --palette-rating-custom-hover:blue;
+    --palette-group-mark-background:#3E68D2;
+    --palette-action-hover:#3E68D2;
+    --palette-action-active:#3E68D2;
+    --palette-rating-number-selected:#3E68D2;
+    --palette-rating-number-hover:#3E68D2;
+    --palette-rating-custom-selected:#3E68D2;
+    --palette-rating-custom-hover:#3E68D2;
 
 }
 
