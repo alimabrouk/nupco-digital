@@ -39,6 +39,8 @@ border-radius: 20px;
 --palette-action-hover: #ffffff;
 --palette-rating-custom-selected-outline: #3E68D2;
 --palette-rating-custom-outline: #3E68D2;
+position: absolute;
+right: 97px;
 
 }
 ._2wEE-RNoShvEqNpNB4ISFm {
