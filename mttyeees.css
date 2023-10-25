@@ -1,6 +1,14 @@
 .LJ5dDI1qRFssk1ka4roCr {
     display: inline-block;
     margin-left: 75px;
+    width: 33px;
+    height: 33px;
+    border-radius: 49px;
+    border-width: 2px;
+    color: yellow;
+    margin-right: 30px !important;
+}
+
 }
 .text{
  font-size:25px;
