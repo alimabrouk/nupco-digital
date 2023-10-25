@@ -47,7 +47,7 @@
 
 /* Yes */
 .Radio ul li:first-child label span:first-child{
-    margin-left: 0px;
+    margin-left: 15px;
 }
 
 .Radio ul li:first-child label span:first-child:before{
@@ -69,7 +69,7 @@
 
 /* No */
 .Radio ul li:last-child label span:first-child{
-    margin-left: 0px !important;
+    margin-left: -15px !important;
 }
 .Radio ul li:last-child label span:first-child:before{
     content: "\f165" !important;
