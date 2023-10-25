@@ -20,12 +20,10 @@
     box-shadow:none !important;
 }
 .Radio ul li span:first-child{
-   
-    color:#3E68D2;
+    margin-top: 10px !important;
 }
 .Radio ul li label span:nth-child(2){
     display: none !important;
-    color:#3E68D2;
 }
 
 .Radio ul li label span:first-child:before{
@@ -43,7 +41,7 @@
 
 /* Yes */
 .Radio ul li:first-child label span:first-child{
-    margin-left: 15px;
+    margin-left: 0px;
 }
 
 .Radio ul li:first-child label span:first-child:before{
@@ -65,7 +63,7 @@
 
 /* No */
 .Radio ul li:last-child label span:first-child{
-    margin-left: -15px !important;
+    margin-left: 0px !important;
 }
 .Radio ul li:last-child label span:first-child:before{
     content: "\f165" !important;
