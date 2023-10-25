@@ -20,7 +20,7 @@
     box-shadow:none !important;
 }
 .Radio ul li span:first-child{
-    margin-top: 10px !important;
+    margin-top: 40px !important;
 }
 .Radio ul li label span:nth-child(2){
     display: none !important;
@@ -41,7 +41,7 @@
 
 /* Yes */
 .Radio ul li:first-child label span:first-child{
-    margin-left: 0px;
+    margin-left: 140px;
 }
 
 .Radio ul li:first-child label span:first-child:before{
