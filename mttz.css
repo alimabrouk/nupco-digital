@@ -22,7 +22,7 @@
     height: 33px;
     border-radius: 20px;
     border-width: 2px;
-    color: var(--palette-rating-number-text);
+    color: #3E68D2;
 }
 .text{
  font-size:25px;
