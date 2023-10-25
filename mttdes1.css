@@ -9,6 +9,7 @@
     border-width: 2px;
     color: #3E68D2;
     margin-left: 15px;
+    --palette-rating-number-text-hover: #3E68D2;
 }
 .text{
  font-size:25px;
