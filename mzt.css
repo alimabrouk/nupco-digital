@@ -79,6 +79,7 @@ _2tHW0cyET9DNu6CMvxGOlL p:last-of-type {
 /* Yes */
 .Radio ul li:first-child label span:first-child{
     margin-left: 140px;
+    color: #38AC75;
 }
 
 .Radio ul li:first-child label span:first-child:before{
@@ -101,6 +102,7 @@ _2tHW0cyET9DNu6CMvxGOlL p:last-of-type {
 /* No */
 .Radio ul li:last-child label span:first-child{
     margin-left: 0px !important;
+   color: #38AC75;
 }
 .Radio ul li:last-child label span:first-child:before{
     content: "\f165" !important;
