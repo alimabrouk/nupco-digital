@@ -1,4 +1,4 @@
-._37oPR5iD8dKjivrJy_y6Vq, ._1_7PScJ_jiqe-TBSrlCh24, ._2tHW0cyET9DNu6CMvxGOlL{
+.ltrboxscale{
  /* Group 1747 */
 
 position: absolute;
@@ -796,10 +796,4 @@ ul[role="group"] li{
 ul[role="group"] li:first-child:hover,
 ul[role="group"] li:last-child:hover{
     border-radius:0px !important;
-}
-.ltrboxscale label{
-    border-radius: 10px !important;
-    height:40px !important;
-    width:30px !important;
-    border-color:blue !important;
 }
