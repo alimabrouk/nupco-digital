@@ -40,7 +40,8 @@ _2tHW0cyET9DNu6CMvxGOlL p:last-of-type {
 }
 :root{
 --palette-core-primary:#ffffff;
- }
+--palette-rating-number-text-hover:#3E68D2;
+}
 
 @font-face{
     font-family: fontAwesome;
