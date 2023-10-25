@@ -1,3 +1,6 @@
+:root
+{   --powered-by-display: none; }
+
 .text{
    font-size: 25px;
 }
@@ -6,12 +9,9 @@
    margin-right: -15px;
 }
 ._37oPR5iD8dKjivrJy_y6Vq ._3_foUkwcSeMY2vBraukrvR{
-   height: 70px;
-   
+   height: 70px;  
    }
-._37oPR5iD8dKjivrJy_y6Vq{
-   margin-top:30px
-}
+
 .LJ5dDI1qRFssk1ka4roCr {
     display: inline-block;
     margin-left: 75px;
