@@ -1,7 +1,7 @@
-@font-face{
-    font-family: fontAwesome;
-    src: url('https://assets.kampyle.com/ps/MedalliaDemo/fontawesome.woff2');
-}
+._2_bGto71qnB6KiVQcvpfp7{
+--palette-core-primary: #FFFFFF;
+ }
+
 /* Thumbs Up & Down */
 .Radio ul li{
     border: none;
@@ -72,13 +72,6 @@
     border-radius: 0;
 }
 .yrjS9gZCXQkP8g1fbNivy{
-position: absolute;
-width: 22.5px;
-height: 21.23px;
-position: absolute;
-width: 22.5px;
-height: 21.23px;
-border:#ffffff ;
 position: absolute;
 width: 22.5px;
 height: 21.23px;
