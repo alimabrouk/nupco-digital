@@ -1,3 +1,8 @@
+.text{
+ font-size:25px;
+ font-weight:600;
+  }
+ 
 :root{
 --palette-core-primary:#ffffff;
  }
