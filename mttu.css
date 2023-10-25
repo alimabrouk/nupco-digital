@@ -6,9 +6,19 @@
  font-weight:600;
   }
  .csat1{
-    margin-left:-40px;
-
-      }
+   margin-left:70px;
+}
+._3qavF1mE7wQGkoUgHE1D75{
+   margin-left: -50px;
+}
+._2tHW0cyET9DNu6CMvxGOlL p:first-of-type {
+   text-align: left;
+   margin-left: -25px;
+}
+_2tHW0cyET9DNu6CMvxGOlL p:last-of-type {
+    text-align: right;
+    margin-right: 10px;
+}
 :root{
 --palette-core-primary:#ffffff;
  }
