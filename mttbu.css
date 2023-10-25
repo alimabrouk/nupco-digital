@@ -5,7 +5,10 @@
  font-size:25px;
  font-weight:600;
   }
- 
+ .csat1{
+    margin-left:-40px;
+
+      }
 :root{
 --palette-core-primary:#ffffff;
  }
