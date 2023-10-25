@@ -23,6 +23,7 @@
     border-radius: 20px;
     border-width: 2px;
     color: #3E68D2;
+   --palette-rating-number-text-hover
 }
 .text{
  font-size:25px;
