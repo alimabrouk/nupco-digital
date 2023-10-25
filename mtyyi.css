@@ -1,9 +1,7 @@
-.Radio li:first-child input:checked + label span:before {
+.Radio ul li:first-child:hover label span:first-child:before, .Radio li:first-child input:checked + label span:before{
    color:#3E68D2
 }
-.Radio li:last-child input:checked + label span:before{
- color:#3E68D2
-}
+
 :root
 {   --powered-by-display: none; }
 
@@ -94,7 +92,6 @@ _2tHW0cyET9DNu6CMvxGOlL p:last-of-type {
     padding: 2px 30px 1px 0px;
     background-repeat: no-repeat;
     border-radius: 0;
-    color:#3E68D2;
 }
 .Radio ul li:first-child:hover label span:first-child:before,
 .Radio li:first-child input:checked + label span:before{
