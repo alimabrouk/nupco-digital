@@ -1,3 +1,6 @@
+.text2{
+margin-top: -35px;}
+
 .Radio ul li:first-child:hover label span:first-child:before, .Radio li:first-child input:checked + label span:before{
    color:#3E68D2;
 }
