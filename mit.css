@@ -136,7 +136,7 @@ _2tHW0cyET9DNu6CMvxGOlL p:last-of-type {
 .Radio li:first-child input:checked + label span:before{
     content:"\f164" !important;
     /*background-image:url('https://alimabrouk.github.io/mtt/image/MTT%20thumbs%20up.png');*/
-    color:blue;
+    color:yellow;
     padding: 2px 30px 1px 0px;
     background-repeat: no-repeat;
     border-radius: 0;
@@ -158,7 +158,7 @@ _2tHW0cyET9DNu6CMvxGOlL p:last-of-type {
 .Radio li:last-child input:checked + label span:before{
     content:"\f165" !important;
     /*background-image:url('https://alimabrouk.github.io/mtt/image/Mtt%20thumbs%20down.png');*/
-    color:blue;
+    color:yellow;
     padding: 5px 30px 10px 1px;
     background-repeat: no-repeat;
     border-radius: 0;
