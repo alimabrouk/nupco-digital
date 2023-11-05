@@ -1,10 +1,7 @@
-.Radio ul li:first-child:hover label span:first-child:before, .Radio li:first-child input:checked + label span:before{
-   color:#3E68D2;
+@font-face{
+    font-family: fontAwesome;
+    src: url('https://assets.kampyle.com/ps/MedalliaDemo/fontawesome.woff2');
 }
-.Radio ul li:last-child:hover label span:first-child:before, .Radio li:last-child input:checked + label span:before {
-   color:#3E68D2;
-}
-
 /* Thumbs Up & Down */
 .Radio ul li{
     border: none;
@@ -13,7 +10,7 @@
     box-shadow:none !important;
 }
 .Radio ul li span:first-child{
-    margin-top: 40px !important;
+    margin-top: 10px !important;
 }
 .Radio ul li label span:nth-child(2){
     display: none !important;
@@ -34,8 +31,7 @@
 
 /* Yes */
 .Radio ul li:first-child label span:first-child{
-    margin-left: 140px;
-    color: #38AC75;
+    margin-left: 0px;
 }
 
 .Radio ul li:first-child label span:first-child:before{
@@ -49,7 +45,7 @@
 .Radio li:first-child input:checked + label span:before{
     content:"\f164" !important;
     /*background-image:url('https://alimabrouk.github.io/mtt/image/MTT%20thumbs%20up.png');*/
-    color:#3E68D2;
+    color:blue;
     padding: 2px 30px 1px 0px;
     background-repeat: no-repeat;
     border-radius: 0;
@@ -58,7 +54,6 @@
 /* No */
 .Radio ul li:last-child label span:first-child{
     margin-left: 0px !important;
-   color: #38AC75;
 }
 .Radio ul li:last-child label span:first-child:before{
     content: "\f165" !important;
@@ -71,17 +66,8 @@
 .Radio li:last-child input:checked + label span:before{
     content:"\f165" !important;
     /*background-image:url('https://alimabrouk.github.io/mtt/image/Mtt%20thumbs%20down.png');*/
-    color:#3E68D2;
+    color:blue;
     padding: 5px 30px 10px 1px;
     background-repeat: no-repeat;
     border-radius: 0;
 }
-
-
-.Radio ul li:first-child:hover label span:first-child:before, .Radio li:first-child input:checked + label span:before{
-   color:#3E68D2;
-}
-.Radio ul li:last-child:hover label span:first-child:before, .Radio li:last-child input:checked + label span:before {
-   color:#3E68D2;
-}
-
