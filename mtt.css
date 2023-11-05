@@ -33,12 +33,7 @@
   margin-top: -35px;
 }
 
-.Radio ul li:first-child:hover label span:first-child:before, .Radio li:first-child input:checked + label span:before{
-   color:#3E68D2;
-}
-.Radio ul li:last-child:hover label span:first-child:before, .Radio li:last-child input:checked + label span:before {
-   color:#3E68D2;
-}
+
 :root
 {   --powered-by-display: none; }
 
@@ -92,77 +87,7 @@ _2tHW0cyET9DNu6CMvxGOlL p:last-of-type {
     font-family: fontAwesome;
     src: url('https://assets.kampyle.com/ps/MedalliaDemo/fontawesome.woff2');
 }
-/* Thumbs Up & Down */
-.Radio ul li{
-    border: none;
-}
-.Radio ul li:hover{
-    box-shadow:none !important;
-}
-.Radio ul li span:first-child{
-    margin-top: 40px !important;
-}
-.Radio ul li label span:nth-child(2){
-    display: none !important;
-}
 
-.Radio ul li label span:first-child:before{
-    cursor:pointer;
-    font-family:fontAwesome;
-    font-size:xx-large !important;
-    border: none;
-    position: initial;
-}
-
-.Radio input:checked + label span:first-child:before,
-.Radio input:checked + label span:first-child:after{
-    background-color: transparent;
-}
-
-/* Yes */
-.Radio ul li:first-child label span:first-child{
-    margin-left: 140px;
-    color: #38AC75;
-}
-
-.Radio ul li:first-child label span:first-child:before{
-    content:"\f164" !important;
-    /*background-image:url('https://alimabrouk.github.io/mtt/image/MTT%20thumbs%20up.png');*/
-    padding: 2px 30px 1px 0px;
-    background-repeat: no-repeat;
-    border-radius: 0;
-}
-.Radio ul li:first-child:hover label span:first-child:before,
-.Radio li:first-child input:checked + label span:before{
-    content:"\f164" !important;
-    /*background-image:url('https://alimabrouk.github.io/mtt/image/MTT%20thumbs%20up.png');*/
-    color:#3E68D2;
-    padding: 2px 30px 1px 0px;
-    background-repeat: no-repeat;
-    border-radius: 0;
-}
-
-/* No */
-.Radio ul li:last-child label span:first-child{
-    margin-left: 0px !important;
-   color: #38AC75;
-}
-.Radio ul li:last-child label span:first-child:before{
-    content: "\f165" !important;
-    /*background-image:url("https://alimabrouk.github.io/mtt/image/Mtt%20thumbs%20down.png");*/
-    padding: 5px 30px 10px 1px;
-    background-repeat: no-repeat;
-    border-radius: 0;
-}
-.Radio ul li:last-child:hover label span:first-child:before,
-.Radio li:last-child input:checked + label span:before{
-    content:"\f165" !important;
-    /*background-image:url('https://alimabrouk.github.io/mtt/image/Mtt%20thumbs%20down.png');*/
-    color:#3E68D2;
-    padding: 5px 30px 10px 1px;
-    background-repeat: no-repeat;
-    border-radius: 0;
-}
 .yrjS9gZCXQkP8g1fbNivy{
 position: absolute;
 width: 22.5px;
