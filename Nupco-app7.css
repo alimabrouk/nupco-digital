@@ -10,7 +10,6 @@
 :root { 
     --palette-core-primary: #E06E0E; 
     --rating-squares-border-color: #ffffff;
-    --survey-padding: 0px;
     --typography-fontFamily: "CoHeading";
     --typography-headline-size: 15px; /* Label font size */
 } 
