@@ -36,12 +36,6 @@ border-radius: 6px;
     background-color: #ffffff;
 }
 
-.CSAT span label{
-    border: 1.5px solid #0000001A;
-    height: 40px;
-    width: 40px;
-    padding-top: 5px !important;
-}
 
 .Text {
     background-color: #1C2346; /* Replace with your desired background color */
