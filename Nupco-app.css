@@ -6,8 +6,7 @@
 
 @font-face {
    font-family: CoHeading;
-   src: url(https://mtrcs.io/fonts/Co_Headline.otf);
-   font-weight: bold;
+   src: url(https://mtrcs.io/fonts/Co_Headline.otf)
 }
 
 :root{  --typography-fontFamily: CoHeading; } 
