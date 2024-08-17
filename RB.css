@@ -7,7 +7,7 @@
 }
 
 :root { 
-    --palette-core-primary: #55B807; 
+    --palette-core-primary: #00ae9a;; 
     --rating-squares-border-color: #ffffff;
     --typography-fontFamily: "Open_Sans";
     --typography-headline-size: 18px; /* Label font size */
@@ -38,7 +38,7 @@ span {
 .Text {
     background-color: #0147b1; /* Replace with your desired background color */
     color: #FFFFFF; /* Set text color to ensure readability */
-    border: 2px solid #0147b1; /* Border color and style */
+    border: 2px solid #00ae9a; /* Border color and style */
 }
 
 
