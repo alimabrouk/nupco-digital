@@ -3,7 +3,6 @@
 	font-family: 'FS Albert Arabic';
 	src: url(https://www.roshn.sa/assets/roshn/fonts/FSAlbertArabic-Bold.woff2);
     font-style: normal;
-    font-display: swap;
 }
 :root{
 	--typography-fontFamily: 'FS Albert Arabic'; }
@@ -34,6 +33,11 @@ margin-bottom: 10PX;
     padding-top: 5px !important;
     font-size: 14px;
 }
+
+.Ratings> div{
+    text-align: center !important;
+    display: initial;
+    }
 
 .Ratings> div > div{
     margin-top: 20px;
