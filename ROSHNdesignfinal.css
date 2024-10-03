@@ -8,7 +8,7 @@
 :root{
 --powered-by-display: none;
 --palette-action-hover:#ffffff;
---questions-spacing: 1px;}
+--questions-spacing: 0px;}
 
 
 .surveyX {--palette-core-outline: #212121 }
