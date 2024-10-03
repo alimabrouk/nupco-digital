@@ -40,21 +40,27 @@ margin-bottom: 10PX;
 
 .Ratings> div > div {
     margin-top: 20px;
-    color: #DAA520; /* Default smiley color */
+    --palette-action-hover: #ffffff;
+    --palette-rating-custom-hover: #DAA520;
+    --palette-rating-custom-selected: #DAA520;
+    --palette-core-primary: #ffffff;
+    --palette-rating-custom-selected-outline: #ffffff;
+    --palette-rating-custom-outline: #DAA520;
     display: flex;
     justify-content: center;
 }
 
-.Ratings> div > div:hover {
-    color: #DAA520; /* All smileys keep the same color */
+.Ratings> div > div:hover svg path { 
+    fill: var(--palette-action-hover); /* Smiley turns white on hover */
 }
 
-.Ratings> div > div.selected { 
-    color: #ffffff; /* Selected smiley turns white */
+/* Add this for the selected smiley */
+.Ratings> div > div.selected svg path {
+    fill: #ffffff; /* Keep the selected smiley white */
 }
 
-.Ratings> div > div.selected:hover {
-    color: #ffffff; /* Keep selected smiley white on hover */
+.Ratings> div > div.selected:hover svg path {
+    fill: #ffffff; /* Ensure the selected smiley stays white on hover */
 }
 
 
