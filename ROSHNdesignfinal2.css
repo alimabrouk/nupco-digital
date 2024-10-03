@@ -58,17 +58,25 @@ margin-bottom: 20px;
 }
 
 .Dropdown > div > div{
-margin-bottom: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .Ratings > div > div{
-margin-bottom: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .Comment > div > div{
-margin-bottom: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
-
 /*/ Submit button modification /*/
 .surveyBtn.surveyBtn_submit {
 display: inline-block;
