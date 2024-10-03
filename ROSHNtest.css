@@ -50,17 +50,9 @@ margin-bottom: 10PX;
     justify-content: center;
 }
 
-.Ratings> div > div:hover {
-    color: var(--palette-action-hover); /* for text-based icons */
-    fill: var(--palette-action-hover); /* for SVG icons */
-}
 
 .Ratings> div > div:hover svg path { 
     fill: #ffffff; /* Assuming smiley is an SVG path, make it white on hover */
-}
-
-.Ratings> div > div:hover {
-    background-color: var(--palette-rating-custom-hover); /* hover background change */
 }
 
 
