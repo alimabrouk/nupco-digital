@@ -4,11 +4,11 @@
     font-style: normal;
 }
 :root{
-	--typography-fontFamily: 'FS Albert Arabic'; }
-:root{
---powered-by-display: none;
---palette-action-hover:#ffffff;
---questions-spacing: 0px;}
+	--typography-fontFamily: 'FS Albert Arabic';
+	--powered-by-display: none;
+	--palette-action-hover:#ffffff;
+	--palette-core-primary: #212121;
+	--questions-spacing: 1px;}
 
 
 .surveyX {--palette-core-outline: #212121 }
@@ -87,8 +87,9 @@ font-size: 14px;
 border: none;
 font-size: 14px;
 border-radius: 50px;
-width: 380px;
-height: 40px}
+width: 348px;
+height: 40px;
+gap: 12px;}
 
 /*/ Submit button modification /*/
 .surveyBtn.surveyBtn_close{
@@ -96,21 +97,15 @@ display: inline-block;
 padding: 16px 24px 16px 24px;
 margin-bottom: 0px;
 font-size: 14px;
-border: solid;
+border: revert;
 border-color:#3f5277;
 font-size: 14px;
 border-radius: 50px;
-width: 380px;
-height: 40px}
+width: 348px;
+height: 40px;
+gap: 12px;}
 
-._207sw0FPxzBQQBPqaDdUpd {
-    display: flex;
-    margin: 16px 0;
-    flex-flow: row nowrap;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: column-reverse;
-}
+
 
 ._207sw0FPxzBQQBPqaDdUpd > div{
    max-width: 100%;
