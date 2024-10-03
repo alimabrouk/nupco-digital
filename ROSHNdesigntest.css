@@ -8,7 +8,8 @@
 	--typography-fontFamily: 'FS Albert Arabic'; }
 :root{
 --powered-by-display: none;
---questions-spacing: 15px;}
+--questions-spacing: 15px;
+--palette-action-hover:#ffffff }
 
 
 .surveyX {--palette-core-outline: #212121 }
@@ -45,7 +46,7 @@ margin-bottom: 10PX;
     --palette-rating-custom-selected: #DAA520;
     --palette-core-primary: #ffffff;
     --palette-rating-custom-selected-outline: #ffffff;
-    --palette-rating-custom-outline: #eae7e6;
+    --palette-rating-custom-outline: #FFD55C;
     display: flex;
     justify-content: center;
 }
@@ -71,24 +72,32 @@ margin-top: 10px;
 /*/ Submit button modification /*/
 .surveyBtn.surveyBtn_submit {
 display: inline-block;
-padding: 6px 12px;
+padding: 16px 24px 16px 24px;
 margin-bottom: 0px;
 font-size: 14px;
 border: none;
 font-size: 14px;
-border-radius: 6px;
-width: 130px; }
+border-radius: 50px;
+width: 380px;}
 
 /*/ Submit button modification /*/
 .surveyBtn.surveyBtn_close{
 display: inline-block;
-padding: 6px 12px;
+padding: 16px 24px 16px 24px;
 margin-bottom: 0px;
 font-size: 14px;
 border: none;
 font-size: 14px;
-border-radius: 6px;
-width: 130px;
+border-radius: 50px;
+width: 380px;}
+
+._207sw0FPxzBQQBPqaDdUpd {
+    display: flex;
+    margin: 16px 0;
+    flex-flow: row nowrap;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
 }
 
  /*/ Mobile displayform /*/
