@@ -38,7 +38,7 @@ margin-bottom: 10PX;
     display: initial;
     }
 
-.Ratings> div > div {
+.Ratings > div > div {
     margin-top: 20px;
     --palette-action-hover: #ffffff;
     --palette-rating-custom-hover: #DAA520;
@@ -48,20 +48,17 @@ margin-bottom: 10PX;
     --palette-rating-custom-outline: #DAA520;
     display: flex;
     justify-content: center;
+    color: var(--palette-rating-custom-hover); /* Default color for smileys */
 }
 
-.Ratings> div > div:hover svg path { 
-    fill: var(--palette-action-hover); /* Smiley turns white on hover */
+.Ratings > div > div:hover {
+    color: var(--palette-action-hover); /* Hovered smiley turns white */
 }
 
-/* Add this for the selected smiley */
-.Ratings> div > div.selected svg path {
-    fill: #ffffff; /* Keep the selected smiley white */
+.Ratings > div > div:hover svg path {
+    fill: var(--palette-action-hover); /* Only the hovered smiley turns white */
 }
 
-.Ratings> div > div.selected:hover svg path {
-    fill: #ffffff; /* Ensure the selected smiley stays white on hover */
-}
 
 
 
