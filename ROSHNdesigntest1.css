@@ -78,7 +78,8 @@ font-size: 14px;
 border: none;
 font-size: 14px;
 border-radius: 50px;
-width: 380px;}
+width: 380px;
+height: 40px}
 
 /*/ Submit button modification /*/
 .surveyBtn.surveyBtn_close{
@@ -89,7 +90,8 @@ font-size: 14px;
 border: none;
 font-size: 14px;
 border-radius: 50px;
-width: 380px;}
+width: 380px;
+height: 40px}
 
 ._207sw0FPxzBQQBPqaDdUpd {
     display: flex;
@@ -98,6 +100,9 @@ width: 380px;}
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: column-reverse;
+}
+._207sw0FPxzBQQBPqaDdUpd._2oEpWcfZnCvjbVRDL7a213 > div {
+    width: auto;
 }
 
  /*/ Mobile displayform /*/
