@@ -50,7 +50,6 @@ margin-bottom: 10PX;
     justify-content: center;
 }
 
-
 .Ratings> div > div:hover svg path { 
     fill: #ffffff; /* Assuming smiley is an SVG path, make it white on hover */
 }
