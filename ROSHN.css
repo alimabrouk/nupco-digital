@@ -45,6 +45,7 @@ margin-bottom: 10PX;
 
 .Ratings> div > div{
     margin-top: 20px;
+    --palette-action-hover : #ffffff;
     --palette-rating-custom-hover: #DAA520;
     --palette-rating-custom-selected: #DAA520;
     --palette-core-primary: #ffffff;
