@@ -1,11 +1,12 @@
+
 @font-face {
-    font-family: 'FS Albert Arabic';
-    src: url('https://www.roshn.sa/assets/roshn/fonts/FSAlbertArabic-Bold.woff2');
-    font-weight: 700;
+	font-family: 'FS Albert Arabic';
+	src: url(https://www.roshn.sa/assets/roshn/fonts/FSAlbertArabic-Bold.woff2);
     font-style: normal;
     font-display: swap;
 }
-
+:root{
+	--typography-fontFamily: 'FS Albert Arabic'; }
 :root{
 --powered-by-display: none;
 --questions-spacing: 15px;}
@@ -16,6 +17,7 @@
 form footer {
     margin-top: 10px;
 }
+:root { --palette-core-primary: #ffffff; }
 
 
 /*/ Logo width /*/
