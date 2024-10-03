@@ -58,6 +58,17 @@ margin-bottom: 20px;
 --palette-action-hover: transparent;
 }
 
+.Dropdown > div > div{
+margin-bottom: 5px;
+}
+
+.Ratings > div > div{
+margin-bottom: 5px;
+}
+
+.Comment > div > div{
+margin-bottom: 5px;
+}
 
 /*/ Submit button modification /*/
 .surveyBtn.surveyBtn_submit {
@@ -77,7 +88,8 @@ display: inline-block;
 padding: 16px 24px 16px 24px;
 margin-bottom: 0px;
 font-size: 14px;
-border: none;
+border: solid;
+border-color:#3f5277;
 font-size: 14px;
 border-radius: 50px;
 width: 380px;
