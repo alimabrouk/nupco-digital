@@ -33,31 +33,20 @@ margin-bottom: 10PX;
     font-size: 14px;
 }
 
-.Ratings> div{
-    text-align: center !important;
-    display: initial;
-    }
-
 .Ratings > div > div {
     margin-top: 20px;
-    --palette-action-hover: #ffffff;
-    --palette-rating-custom-hover: #DAA520;
-    --palette-rating-custom-selected: #DAA520;
-    --palette-core-primary: #ffffff;
-    --palette-rating-custom-selected-outline: #ffffff;
-    --palette-rating-custom-outline: #DAA520;
     display: flex;
     justify-content: center;
-    color: var(--palette-rating-custom-hover); /* Default color for smileys */
 }
 
-.Ratings > div > div:hover {
-    color: var(--palette-action-hover); /* Hovered smiley turns white */
+.Ratings > div > div svg path {
+    fill: #DAA520; /* Default color for smileys */
 }
 
 .Ratings > div > div:hover svg path {
-    fill: var(--palette-action-hover); /* Only the hovered smiley turns white */
+    fill: #ffffff; /* Only the hovered smiley turns white */
 }
+
 
 
 
