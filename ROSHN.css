@@ -1,0 +1,170 @@
+
+@font-face {
+    font-family: 'FS Albert Arabic';
+    src: url('https://www.roshn.sa/assets/roshn/fonts/FSAlbertArabic-Bold.woff2') format('woff2'), 
+         url('https://www.roshn.sa/assets/roshn/fonts/FSAlbertArabic-Bold.woff') format('woff'), 
+         url('https://www.roshn.sa/assets/roshn/fonts/FSAlbertArabic-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root{
+--powered-by-display: none;
+--questions-spacing: 15px;
+--palette-action-hover: #ffffff;
+--palette-rating-number-selected: #DAA520;
+--palette-rating-number-hover: #DAA520;
+--palette-action-hover : #ffffff;}
+
+
+.surveyX {--palette-core-outline: rgba(44, 53, 72, 0.56);
+            color: #55b807 }
+
+form footer {
+    margin-top: 10px;
+}
+
+
+/*/ Logo width /*/
+
+.Logo > div > img{
+max-width: 50%;  
+margin-bottom: 10PX; 
+}
+
+/*/ Stars Alignement and Colors /*/
+.Ratings span label{
+    height: 40px;
+    width: 40px;
+    padding-top: 5px !important;
+    font-size: 14px;
+}
+
+
+.Ratings> div{
+    text-align: center !important;
+    display: initial;
+    }
+
+.Ratings> div > div{
+    margin-top: 20px;
+    --palette-rating-custom-hover: #DAA520;
+    --palette-rating-custom-selected: #DAA520;
+    --palette-core-primary: #ffffff;
+    --palette-rating-custom-selected-outline: #DAA520;
+    --palette-rating-custom-outline: #DAA520;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*/ Choices sets Alignement and Colors /*/
+
+.Text2{
+   margin-bottom: 15px;
+}
+
+.YN > span > ul{
+    
+margin-top: 10px;
+--palette-action-hover: #55b807;
+--palette-core-primary: #55b807;
+--palette-group-mark-background:#55b807;
+--palette-rating-number-selected:#55b807;
+--palette-core-primary:#55b807;
+--palette-action-active:transparent;
+--palette-core-outline: transparent;
+}
+
+.Dropdown > div{
+margin-top: 10px;
+--palette-action-hover: transparent;
+}
+
+.Dropdown> label{
+margin-top: 10px;
+}
+
+
+/*/ Hide close button from all pages /*/
+
+.surveyBtn.surveyBtn_close { Display:none;}
+
+/*/ Submit button modification /*/
+.surveyBtn.surveyBtn_submit {
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0px;
+font-size: 14px;
+border: none;
+font-size: 14px;
+border-radius: 6px;
+width: 130px; }
+
+/*/ Submit button modification /*/
+.surveyBtn.surveyBtn_back{
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0px;
+font-size: 14px;
+border: none;
+font-size: 14px;
+border-radius: 6px;
+width: 130px;
+}
+/*/ Next button modification /*/
+.surveyBtn.surveyBtn_next{
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0px;
+font-size: 14px;
+border: none;
+font-size: 14px;
+border-radius: 6px;
+width: 130px;
+}
+
+ /*/ Mobile displayform /*/
+/*/ Logo width /*/
+
+.mobile form .Ratings{
+    margin-top: 130px;
+    --typography-headline-size: 18px;
+    text-align: center !important;
+}
+
+
+
+.mobile form .Dropdown{
+    --typography-headline-size:18px;
+ }
+
+.mobile form .Comment{
+    margin-top: 100px;
+}
+
+
+.mobile form .surveyBtn.surveyBtn_back{
+    font-size: 16px;
+}
+.mobile form .surveyBtn.surveyBtn_next{
+    font-size: 16px;
+}
+
+.mobile form ._37oPR5iD8dKjivrJy_y6Vq ._3_foUkwcSeMY2vBraukrvR{
+font-size:10px }
+
+/* on mobile make form smaller to expose website underneath so it doesn't occupy the whole screen */
+#liveForm .kpl_builder .kpl-live-mobile {
+    border: none;
+    box-shadow: none;
+    height: 92% !important;
+    width: 95% !important;
+    margin-top: 27px;
+}
+
+
+
+
+
