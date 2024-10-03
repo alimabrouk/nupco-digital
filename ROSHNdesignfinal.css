@@ -8,7 +8,6 @@
 	--typography-fontFamily: 'FS Albert Arabic'; }
 :root{
 --powered-by-display: none;
---questions-spacing: 15px;
 --palette-action-hover:#ffffff }
 
 
@@ -53,20 +52,11 @@ margin-bottom: 10PX;
 
 /*/ Choices sets Alignement and Colors /*/
 
-.Comment{
-   margin-bottom: 15px;
-}
-
 
 .Dropdown > div{
-margin-top: 10px;
+margin-bottom: 20px;
 --palette-action-hover: transparent;
 }
-
-.Dropdown> label{
-margin-top: 10px;
-}
-
 
 
 /*/ Submit button modification /*/
@@ -101,8 +91,9 @@ height: 40px}
     flex-wrap: nowrap;
     flex-direction: column-reverse;
 }
-._207sw0FPxzBQQBPqaDdUpd._2oEpWcfZnCvjbVRDL7a213 > div {
-    width: auto;
+
+._207sw0FPxzBQQBPqaDdUpd > div{
+   max-width: 100%;
 }
 
  /*/ Mobile displayform /*/
