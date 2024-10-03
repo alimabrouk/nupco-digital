@@ -87,7 +87,7 @@ font-size: 14px;
 border: none;
 font-size: 14px;
 border-radius: 50px;
-width: 348px;
+width: 50px;
 height: 40px;
 gap: 12px;}
 
@@ -97,19 +97,17 @@ display: inline-block;
 padding: 16px 24px 16px 24px;
 margin-bottom: 0px;
 font-size: 14px;
-border: revert;
-border-color:#3f5277;
+border: solid;
+border: solid 1px #3f5277;
 font-size: 14px;
 border-radius: 50px;
-width: 348px;
+width: 50px;
 height: 40px;
 gap: 12px;}
 
 
 
-._207sw0FPxzBQQBPqaDdUpd > div{
-   max-width: 100%;
-}
+
 
  /*/ Mobile displayform /*/
 /*/ Logo width /*/
