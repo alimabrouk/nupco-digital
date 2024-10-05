@@ -1,3 +1,20 @@
+<script>
+  window.onload = function () {
+    // Example: detecting Arabic by checking the first character's unicode range
+    if (document.documentElement.innerText.match(/[\u0600-\u06FF]/)) {
+      document.documentElement.classList.add('arabic');
+    }
+  };
+</script>
+	
+.arabic {
+  font-family: 'YourArabicFont', sans-serif;
+  direction: rtl;
+  text-align: right;
+  /* Add any other Arabic-specific styles here */
+}
+
+
 @font-face {
 	font-family: 'FS Albert Arabic';
 	src: url(https://www.roshn.sa/assets/roshn/fonts/FSAlbertArabic-Regular.woff2);
