@@ -79,6 +79,27 @@ margin-bottom: 20px;
     justify-content: center;
 }
 /*/ Submit button modification /*/
+
+.thankYouPageButtonPreview {
+ visibility: hidden;
+}
+.thankYouPageButtonPreview:after {
+ content: 'Conclure';
+ visibility: visible;
+ display: block;
+
+ background-color: red;
+ padding: 6px 12px;
+ border-radius: 4px;
+ left: -18px;
+}
+ .btn:after {
+ z-index: 100 !important;
+}
+
+
+
+
 .surveyBtn.surveyBtn_submit {
 display: inline-block;
 padding: 16px 24px 16px 24px;
@@ -106,22 +127,7 @@ height: 40px;
 gap: 12px;}
 
 
-.thankYouPageButtonPreview {
- visibility: hidden;
-}
-.thankYouPageButtonPreview:after {
- content: 'Conclure';
- visibility: visible;
- display: block;
 
- background-color: red;
- padding: 6px 12px;
- border-radius: 4px;
- left: -18px;
-}
- .btn:after {
- z-index: 100 !important;
-}
 
 ._2HCegihyidYXE6c3Ak2Vua {
     width: 150px;
