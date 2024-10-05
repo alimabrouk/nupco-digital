@@ -80,21 +80,18 @@ margin-bottom: 20px;
 }
 /*/ Submit button modification /*/
 
-.thankYouPageButtonPreview {
- visibility: hidden;
+.thankYouPageButtonPreview{
+    display: none;
 }
-.thankYouPageButtonPreview:after {
- content: 'Conclure';
- visibility: visible;
- display: block;
-
- background-color: red;
- padding: 6px 12px;
- border-radius: 4px;
- left: -18px;
-}
- .btn:after {
- z-index: 100 !important;
+<button id="concludeButton">Conclure</button>
+.concludeButton {
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border: none;  /* No border around the button */
+    padding: 10px 20px;  /* Adjust padding for better size */
+    font-size: 16px;  /* Text size */
+    cursor: pointer;  /* Cursor changes to a pointer when hovered */
 }
 
 
