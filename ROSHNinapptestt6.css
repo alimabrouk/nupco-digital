@@ -49,6 +49,11 @@ span {
     border-radius: 10px; /* Corrected radius property */
     font-size: 16px;
     background-color: #F0F0F0; /* Added off-grey background color */
+    
+}
+.NPS span label.clicked {
+    background-color: #DAA520; /* Blue background on click */
+    border-color: rgba(0, 0, 0, 0.3); /* Optional: darken border on click */
 }
 
 
