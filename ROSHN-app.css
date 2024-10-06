@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'FS Albert Arabic';
+    src: url(https://www.roshn.sa/assets/roshn/fonts/FSAlbertArabic-Regular.woff2);
+    font-style: normal;
+}
+
+:root { 
+    --palette-core-primary: #DAA520; 
+    --rating-squares-border-color: #ffffff;
+    --typography-fontFamily: "FS Albert Arabic";
+    --typography-headline-size: 24px; /* Label font size */
+    --questions-spacing: 24px;
+
+ 
+} 
+
+.surveyBtn /* submit button */
+.ratingMinLabel, .ratingMaxLabel /* represents custom scale labels for rating components*/
+
+
+span {
+    font-family: "FS Albert Arabic" !important;
+}
+
+.surveyBtn{
+    background: #DAA520;
+    border: none;
+    font-size: 14px;
+    border-radius: 6px; 
+}
+ 
+.NPS span{
+    background-color: #ffffff;
+  
+}
+
+
+.NPS span label{
+    border: 1.5px solid #0000001A;
+    height: 40px;
+    width: 40px;
+    padding-top: 5px !important;
+    font-size: 20px;
+}
+
+
+
+.NPS span{
+    background-color: #ffffff;
+}
+
+.NPS{
+    --typography-headline-size: 20px;
+}
+
+.Text {
+    background-color: #DAA520; /* Replace with your desired background color */
+    color: #FFFFFF; /* Set text color to ensure readability */
+    border: 2px solid #DAA520; /* Border color and style */
+}
+
+
+/* Resizing the logo */
+fieldset div > img{
+    height: 50px !important;
+}
+
+
