@@ -35,15 +35,15 @@ span {
 }
 
 
-.NPS span label{
-    border: 8px solid #0000001A;
-    radius: 4px solid;
+
+.NPS span label {
+    border: 8px solid rgba(0, 0, 0, 0.1); /* Changed to valid border color */
+    border-radius: 4px; /* Corrected radius property to border-radius */
     height: 32px;
     width: 32px;
     padding-top: 8px !important;
     font-size: 16px;
 }
-
 
 
 .NPS span{
@@ -53,6 +53,16 @@ span {
 .NPS{
     --typography-headline-size: 16px;
 }
+
+.Text{
+    --typography-headline-size: 16px;
+}
+
+.Dropdown{
+    --typography-headline-size: 16px;
+}
+
+
 
 
 /* Resizing the logo */
