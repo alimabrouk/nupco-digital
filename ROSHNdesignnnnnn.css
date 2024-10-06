@@ -13,6 +13,14 @@
 
 .surveyX {--palette-core-outline: #212121 }
 
+[lang="ar"] {
+  --palette-rating-custom-selected:  #1ed64c;  /* selected marking */
+  --palette-rating-custom-hover: #95ad9a;  /* hover color */
+  direction: rtl;  /* ensure right-to-left text direction */
+  text-align: right;  /* align text to the right */
+}
+
+
 form footer {
     margin-top: -10px;
 }
