@@ -35,13 +35,10 @@ margin-bottom: 10PX;
     font-size: 14px;
 }
 
-[lang="ar"] .Ratings span label{
-    height: 40px;
-    width: 40px;
-    padding-top: 5px !important;
-    font-size: 14px;
+[lang="ar"] .Ratings> div{
+    text-align: right !important;
+    display: initial;
     direction: rtl;/* ensure the label follows RTL */  
-    text-align: right;  /* right-align the label text */}
 }
 
 
