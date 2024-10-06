@@ -8,7 +8,7 @@
     --palette-core-primary: #DAA520; 
     --rating-squares-border-color: #ffffff;
     --typography-fontFamily: "FS Albert Arabic";
-    --questions-spacing: 16px;
+    --questions-spacing: 15px;
 
 } 
 
@@ -42,7 +42,10 @@ span {
 
 
 .NPS span label {
-    border: 1px solid rgba(0, 0, 0, 0.1); /* Added 'solid' for a valid border style */
+    border: 1.5px solid #0000001A;/
+    height: 10px;
+    width: 10px;
+    padding-top: 3px !important;
     border-radius: 10px; /* Corrected radius property */
     font-size: 16px;
 }
