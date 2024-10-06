@@ -48,14 +48,9 @@ span {
     padding-top: 3px !important;
     border-radius: 10px; /* Corrected radius property */
     font-size: 16px;
-    background-color: #F0F0F0; /* Off-grey background color */
-    transition: background-color 0.3s; /* Smooth transition for background color change */
 }
 
-/* Change background color on click */
-.NPS span label.clicked {
-    background-color: var(--palette-core-primary); /* Change to DAA520 when clicked */
-}
+
 
 
 .NPS span label {
@@ -66,7 +61,7 @@ span {
 
 
 .NPS span{
-    background-color: #ffffff;
+    background-color: #F0F0F0;
 }
 
 .NPS{
