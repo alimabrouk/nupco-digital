@@ -36,6 +36,7 @@ span {
 .NPS span label {
     border: rgba(0, 0, 0, 0.1); /* Changed to valid border color */
     border-radius: 10px; /* Corrected radius property to border-radius */
+    font-size: 16px;
 }
 
 .NPS span label {
