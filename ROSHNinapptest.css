@@ -20,12 +20,20 @@ span {
     font-family: "FS Albert Arabic" !important;
 }
 
-.surveyBtn{
+.surveyBtn {
     background: #DAA520;
     border: none;
     font-size: 14px;
-    border-radius: 6px; 
+    border-radius: 50px;
+    padding: 16px 24px; /* No need to repeat same values for padding */
+    width: 380px;
+    height: 40px; /* 40px height will likely be overridden by padding */
+    display: flex; /* Added for gap to work */
+    align-items: center; /* Vertical alignment */
+    justify-content: center; /* Horizontal alignment */
+    gap: 12px; /* Now applicable since display: flex is added */
 }
+
  
 .NPS span{
     background-color: #ffffff;
@@ -34,10 +42,11 @@ span {
 
 
 .NPS span label {
-    border: rgba(0, 0, 0, 0.1); /* Changed to valid border color */
-    border-radius: 10px; /* Corrected radius property to border-radius */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Added 'solid' for a valid border style */
+    border-radius: 10px; /* Corrected radius property */
     font-size: 16px;
 }
+
 
 .NPS span label {
     border: rgba(0, 0, 0, 0.1); /* Changed to valid border color */
