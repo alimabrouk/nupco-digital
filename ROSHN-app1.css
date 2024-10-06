@@ -35,26 +35,11 @@ span {
 }
 
 
-.NPS span label{
-    border: 1.5px solid #0000001A;
-    height: 40px;
-    width: 40px;
-    padding-top: 5px !important;
-    font-size: 20px;
-}
-
-
-
-.NPS span{
-    background-color: #ffffff;
-}
-
 .NPS{
     --typography-headline-size: 20px;
 }
 
 .Text {
-    background-color: #DAA520; /* Replace with your desired background color */
     color: #FFFFFF; /* Set text color to ensure readability */
     border: 2px solid #DAA520; /* Border color and style */
 }
