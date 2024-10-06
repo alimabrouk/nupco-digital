@@ -13,12 +13,6 @@
 
 .surveyX {--palette-core-outline: #212121 }
 
-[lang="ar"] {
-  --palette-rating-custom-selected:  #1ed64c;  /* selected marking */
-  --palette-rating-custom-hover: #95ad9a;  /* hover color */
-  direction: rtl;  /* ensure right-to-left text direction */
-  text-align: right;  /* align text to the right */
-}
 
 
 form footer {
@@ -40,6 +34,16 @@ margin-bottom: 10PX;
     padding-top: 5px !important;
     font-size: 14px;
 }
+
+[lang="ar"] .Ratings span label{
+    height: 40px;
+    width: 40px;
+    padding-top: 5px !important;
+    font-size: 14px;
+    direction: rtl;/* ensure the label follows RTL */  
+    text-align: right;  /* right-align the label text */}
+}
+
 
 .Ratings> div{
     text-align: center !important;
