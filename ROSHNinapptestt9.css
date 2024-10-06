@@ -42,20 +42,20 @@ span {
 
 
 .NPS span label {
-    border: 1.5px solid #0000001A; /* Adjusted border color for clarity */
+    border: 1.5px solid rgba(0, 0, 0, 0.1); /* Adjusted border color for clarity */
     height: 10px;
     width: 10px;
     padding-top: 3px !important;
     border-radius: 10px; /* Corrected radius property */
     font-size: 16px;
-    background-color: #F0F0F0; /* Added off-grey background color */
-    
-}
-.NPS span label.clicked {
-    background-color: #DAA520; /* Blue background on click */
-    border-color: rgba(0, 0, 0, 0.3); /* Optional: darken border on click */
+    background-color: #F0F0F0; /* Off-grey background color */
+    transition: background-color 0.3s; /* Smooth transition for background color change */
 }
 
+/* Change background color on click */
+.NPS span label.clicked {
+    background-color: var(--palette-core-primary); /* Change to DAA520 when clicked */
+}
 
 
 .NPS span label {
