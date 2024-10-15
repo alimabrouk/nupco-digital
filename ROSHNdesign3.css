@@ -144,9 +144,9 @@ gap: 12px;}
 .MCanchor > span > ul{
 margin-top: 15px;
 --palette-action-hover: transparent;
---palette-core-primary: #00bf00;
---palette-group-mark-background:#00bf00;
---palette-rating-number-selected:#00bf00;
+--palette-core-primary: #DAA520;
+--palette-group-mark-background:#DAA520;
+--palette-rating-number-selected:#DAA520;
 --palette-core-primary:#00bf00;
 --palette-action-active:transparent;
 --palette-core-outline: lightgray;
