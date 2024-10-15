@@ -141,7 +141,20 @@ width: 300px;
 height: 40px;
 gap: 12px;}
 
-
+.MCanchor > span > ul{
+margin-top: 15px;
+--palette-action-hover: transparent;
+--palette-core-primary: #00bf00;
+--palette-group-mark-background:#00bf00;
+--palette-rating-number-selected:#00bf00;
+--palette-core-primary:#00bf00;
+--palette-action-active:transparent;
+--palette-core-outline: lightgray;
+    min-width: auto;
+    width: 391px;
+    display: inline-flex !important ;
+    flex-direction: column !important;
+}
 
 
 ._2HCegihyidYXE6c3Ak2Vua {
