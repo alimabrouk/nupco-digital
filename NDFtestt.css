@@ -47,7 +47,7 @@ margin-bottom: 10PX;
     --palette-rating-custom-selected: #c7a979;
     --palette-core-primary: #ffffff;
     --palette-rating-custom-selected-outline: #c7a979;
-    --palette-rating-custom-outline: #c7a979;
+    --palette-rating-custom-outline: yellow;
     display: flex;
     justify-content: center;
 }
