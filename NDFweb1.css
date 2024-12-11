@@ -142,7 +142,16 @@ margin-bottom:15px;
 
 /*/ Hide close button from all pages /*/
 
-.surveyBtn.surveyBtn_close { Display:none;}
+.surveyBtn.surveyBtn_close {
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0px;
+font-size: 14px;
+border: none;
+font-size: 14px;
+border-radius: 6px;
+width: 130px; }
+
 
 /*/ Submit button modification /*/
 .surveyBtn.surveyBtn_submit {
