@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 200 1000;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscRiyS8p4_RA.woff2) format('woff2');
+}
+
+
+
+:root{
+    --typography-fontFamily: 'IBM Plex Sans Arabic Regular';
+    --powered-by-display: none;
+    --palette-action-hover:transparent;
+    --palette-core-primary: #c7a979;
+    --palette-core-outline: lightgray;
+    --palette-core-components: #faf7f6;
+    --questions-spacing: 10px;}
+
+
+.surveyX {--palette-core-outline: #212121 }
+
+
+
+form footer {
+    margin-top: -10px;
+}
+
+
+/*/ Logo width /*/
+
+.Logo > div > img{
+max-width: 50%;  
+margin-bottom: 10PX; 
+}
+
+/*/ Stars Alignement and Colors /*/
+.Ratingsanshor span label{
+    height: 40px;
+    width: 40px;
+    padding-top: 5px !important;
+    font-size: 14px;
+}
+
+
+.Ratingsanshor> div{
+    text-align: center !important;
+    display: initial;
+    }
+
+.Ratingsanshor> div > div{
+    margin-top: 20px;
+    --palette-rating-custom-hover: #c7a979;
+    --palette-rating-custom-selected: #c7a979;
+    --palette-core-primary: #ffffff;
+    --palette-rating-custom-selected-outline: #ffffff;
+    --palette-rating-custom-outline: #C7B497;
+    display: flex;
+    justify-content: center;
+}
+
+/*/ Choices sets Alignement and Colors /*/
+
+
+
+.Ratingsanshor > div > div{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.Comment > div > div{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+/*/ Submit button modification /*/
+
+.thankYouPageButtonPreview{
+    display: none;
+}
+<button id="concludeButton">Conclure</button>
+.concludeButton {
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border: none;  /* No border around the button */
+    padding: 10px 20px;  /* Adjust padding for better size */
+    font-size: 16px;  /* Text size */
+    cursor: pointer;  /* Cursor changes to a pointer when hovered */
+}
+
+/*/ Rating arabic alignement /*/
+
+
+/*/[lang="ar"] .Ratingsanshor > div > div {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+
+[lang="ar"] .directionRightToLeft .LJ5dDI1qRFssk1ka4roCr ._3_foUkwcSeMY2vBraukrvR:first-child {
+    margin-left: 15px;
+}
+
+
+[lang="ar"] .Ratingsanshor > div > div._1_7PScJ_jiqe-TBSrlCh24{
+    position: relative;
+    margin-right: 20px;
+}
+
+[lang="ar"] #survey-wrapper > form > main > div._1BI5B2xY6xMD9hHPCMgWgM.logo > div > img {
+    text-align: right !important;
+}/*/
+
+.surveyBtn.surveyBtn_submit {
+display: inline-block;
+margin-bottom: 0px;
+font-size: 14px;
+border: none;
+font-size: 14px;
+border-radius: 50px;
+width: 300px;
+height: 40px;
+gap: 12px;}
+
+
+.surveyBtn.surveyBtn_next {
+display: inline-block;
+margin-bottom: 0px;
+font-size: 14px;
+border: none;
+font-size: 14px;
+border-radius: 50px;
+width: 300px;
+height: 40px;
+gap: 12px;}
+
+/*/ Submit button modification /*/
+.surveyBtn.surveyBtn_close{
+display: inline-block;
+margin-bottom: 0px;
+font-size: 14px;
+border: none;
+font-size: 14px;
+border-radius: 50px;
+width: 300px;
+height: 40px;
+gap: 12px;}
+
+/*/ Thank you page logo /*/
+
+._2HCegihyidYXE6c3Ak2Vua{
+ margin-bottom: -30px;
+}
+
+
+/* on mobile make form smaller to expose website underneath so it doesn't occupy the whole screen */
+#liveForm .kpl_builder .kpl-live-mobile {
+    border: none;
+    box-shadow: none;
+    height: 92% !important;
+    width: 95% !important;
+    margin-top: 27px;
+}
+
+
+:root
+{   --powered-by-display: none; }
