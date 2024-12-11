@@ -10,6 +10,7 @@
 --palette-rating-number-selected: #c7a979;
 --palette-rating-number-hover: #c7a979;
 --palette-action-hover : #ffffff;
+--palette-rating-custom-outline: yellow;
 font-size: 16px}
 
 
@@ -70,6 +71,7 @@ margin-bottom: 10PX;
     margin-top: 20px;
     display: flex;
     justify-content: center;
+  --palette-rating-custom-outline: yellow;
 }
 
 .CSATanchor p.ratingMinLabel {
