@@ -7,8 +7,8 @@
 --powered-by-display: none;
 --questions-spacing: 15px;
 --palette-action-hover: #ffffff;
---palette-rating-number-selected: #55b807;
---palette-rating-number-hover: #55b807;
+--palette-rating-number-selected: #c7a979;
+--palette-rating-number-hover: #c7a979;
 --palette-action-hover : #ffffff;
 font-size: 16px}
 
@@ -43,11 +43,11 @@ margin-bottom: 10PX;
 
 .Ratingsanchor> div > div{
     margin-top: 20px;
-    --palette-rating-custom-hover: #55b807;
-    --palette-rating-custom-selected: #55b807;
+    --palette-rating-custom-hover: #c7a979;
+    --palette-rating-custom-selected: #c7a979;
     --palette-core-primary: #ffffff;
-    --palette-rating-custom-selected-outline: #55b807;
-    --palette-rating-custom-outline: #55b807;
+    --palette-rating-custom-selected-outline: #c7a979;
+    --palette-rating-custom-outline: #c7a979;
     display: flex;
     justify-content: center;
 }
@@ -108,11 +108,11 @@ margin-bottom: 10PX;
 .MCanchor > span > ul{
     
 margin-top: 10px;
---palette-action-hover: #55b807;
---palette-core-primary: #55b807;
---palette-group-mark-background:#55b807;
---palette-rating-number-selected:#55b807;
---palette-core-primary:#55b807;
+--palette-action-hover: #c7a979;
+--palette-core-primary: #c7a979;
+--palette-group-mark-background:#c7a979;
+--palette-rating-number-selected:#c7a979;
+--palette-core-primary:#c7a979;
 --palette-action-active:transparent;
 --palette-core-outline: transparent;
 }
