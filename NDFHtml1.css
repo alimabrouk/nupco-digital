@@ -1,43 +1,32 @@
-.LJ5dDI1qRFssk1ka4roCr ._2tHW0cyET9DNu6CMvxGOlL{
-  width: auto;
+@font-face {
+    font-family: 'IBM Plex Sans Arabic Regular';
+    src: url(https://media.roshn.sa/assets/fonts/IBMPlexSansArabic-Regular.ttf);
+    font-style: normal;
 }
 
-._2HCegihyidYXE6c3Ak2Vua{
-margin-bottom: -20px;
+@font-face {
+    font-family: 'IBM Plex Sans Arabic Light';
+    src: url(https://media.roshn.sa/assets/fonts/IBMPlexSansArabic-Light.ttf);
+    font-style: normal;
 }
-._1De-hWu2XrYnO5hnFIWYwJ {
-width: 112px;
-padding: 7px 8px 9px;
-border-radius: 80px;
-font-size: 0.875rem;
-font-weight: 400;
-white-space: wrap;
-overflow: hidden;
-cursor: pointer;
-color: white;
-flex: 0 1 auto;
-margin-left: -350px;
-}
+
+
 :root{
---palette-action-hover:transparent;
---palette-core-primary: #c7a979;
---palette-core-outline: lightgray;
---palette-core-components: #d8d8d8;
-font-size: 16px}
-.Ratingsanshor> div > div{
-    margin-top: 20px;
-    --palette-rating-custom-hover: #c7a979;
-    --palette-rating-custom-selected: #c7a979;
-    --palette-core-primary: #ffffff;
-    --palette-rating-custom-selected-outline: #ffffff;
-    --palette-rating-custom-outline: #d8d8d8;
-}
+    --typography-fontFamily: 'IBM Plex Sans Arabic Regular';
+    --powered-by-display: none;
+    --palette-action-hover:transparent;
+    --palette-core-primary: #468077;
+    --palette-core-outline: lightgray;
+    --palette-core-components: #faf7f6;
+    --questions-spacing: 10px;}
 
-.surveyX {--palette-core-outline: rgba(44, 53, 72, 0.56);
-            color: #55b807 }
+
+.surveyX {--palette-core-outline: #212121 }
+
+
 
 form footer {
-    margin-top: 10px;
+    margin-top: -10px;
 }
 
 
@@ -49,154 +38,140 @@ margin-bottom: 10PX;
 }
 
 /*/ Stars Alignement and Colors /*/
-
-
-
-
-/*/ CSAT And NPS Alignement and Colors /*/
-
-
-._1_7PScJ_jiqe-TBSrlCh24 ._3_foUkwcSeMY2vBraukrvR{
-    width: 40px;
+.Ratings span label{
     height: 40px;
- }
+    width: 40px;
+    padding-top: 5px !important;
+    font-size: 14px;
+}
 
-.CSATanchor> div{
+
+.Ratingsanshor> div{
     text-align: center !important;
     display: initial;
     }
 
-
-.CSATanchor > div > div{
+.Ratingsanshor> div > div{
     margin-top: 20px;
-    display: flex;
-    justify-content: center;
-  --palette-rating-custom-outline: #c7a979;
+    --palette-rating-custom-hover: #468077;
+    --palette-rating-custom-selected: #468077;
+    --palette-core-primary: #ffffff;
+    --palette-rating-custom-selected-outline: #ffffff;
+    --palette-rating-custom-outline: #8cb0ab;
 }
 
-.CSATanchor p.ratingMinLabel {
-    text-align: center !important;
+/*/ Choices sets Alignement and Colors /*/
+
+.MCanchor > span > ul{
+min-width: auto;
+width: 330px;
+display: inline-flex !important ;
+flex-direction: column !important;
+--palette-action-active: #468077;
+--palette-group-mark-background: #468077;
 }
 
-.CSATanchor p.ratingMaxLabel{
-    text-align: center !important;
+.MCanchor > span > ul > li {
+    font-family: 'IBM Plex Sans Arabic Light', sans-serif; /* Ensure each choice has the correct font */
+    font-size: 16px; /* Adjust font size if necessary */
 }
 
 
-
-.CSATanchor > div{
-    text-align: center !important;
-    display: initial;
-    }
-
-.CSATanchor > div > div{
+.Ratingsanshor > div > div{
     margin-top: 5px;
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
 }
 
+.Comment > div > div{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+/*/ Submit button modification /*/
 
-.NPSanchor:nth-child(2) > div {
-    margin-top: 10px;
+.thankYouPageButtonPreview{
+    display: none;
+}
+<button id="concludeButton">Conclure</button>
+.concludeButton {
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border: none;  /* No border around the button */
+    padding: 10px 20px;  /* Adjust padding for better size */
+    font-size: 16px;  /* Text size */
+    cursor: pointer;  /* Cursor changes to a pointer when hovered */
 }
 
-/*/ Choices sets Alignement and Colors /*/
+/*/ Rating arabic alignement /*/
 
-.Text2{
-   margin-bottom: 15px;
-}
 
-.MCanchor > span > ul{
-    
-margin-top: 10px;
---palette-action-hover: #c7a979;
---palette-core-primary: #c7a979;
---palette-group-mark-background:#c7a979;
---palette-rating-number-selected:#c7a979;
---palette-core-primary:#c7a979;
---palette-action-active:transparent;
---palette-core-outline: transparent;
-}
-
-.OTanchor > div{
-margin-top: 10px;
---palette-action-hover: transparent;
-}
-
-.NPSanchor > div{
-margin-top: 10px;
-}
-
-.OTanchor> label{
-margin-top: 10px;
+/*/[lang="ar"] .Ratingsanshor > div > div {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
 }
 
 
-/*/ Section break alignment /*/
-
-.SB> div{
-margin-top:15px;
-margin-bottom:15px;
-}
-
-/*/ Hide close button from all pages /*/
-
-
-
- /*/ Mobile displayform /*/
-/*/ Logo width /*/
-
-.mobile form .Ratingsanchor{
-    margin-top: 130px;
-    --typography-headline-size: 18px;
-    text-align: center !important;
-}
-
-.mobile form .CSATanchor{
-     margin-top: 100px;
-     --typography-headline-size: 18px;
-     text-align: center !important;
+[lang="ar"] .directionRightToLeft .LJ5dDI1qRFssk1ka4roCr ._3_foUkwcSeMY2vBraukrvR:first-child {
+    margin-left: 15px;
 }
 
 
-.mobile form .CSATanchor{
-    margin-top: 10px;
-    --typography-headline-size: 16px;
+[lang="ar"] .Ratingsanshor > div > div._1_7PScJ_jiqe-TBSrlCh24{
+    position: relative;
+    margin-right: 20px;
 }
 
-.mobile form .NPSanchor{
-    --typography-headline-size:18px;
+[lang="ar"] #survey-wrapper > form > main > div._1BI5B2xY6xMD9hHPCMgWgM.logo > div > img {
+    text-align: right !important;
+}/*/
+
+.surveyBtn.surveyBtn_submit {
+display: inline-block;
+margin-bottom: 0px;
+font-size: 14px;
+border: none;
+font-size: 14px;
+border-radius: 50px;
+width: 300px;
+height: 40px;
+gap: 12px;}
+
+
+.surveyBtn.surveyBtn_next {
+display: inline-block;
+margin-bottom: 0px;
+font-size: 14px;
+border: none;
+font-size: 14px;
+border-radius: 50px;
+width: 300px;
+height: 40px;
+gap: 12px;}
+
+/*/ Submit button modification /*/
+.surveyBtn.surveyBtn_close{
+display: inline-block;
+margin-bottom: 0px;
+font-size: 14px;
+border: none;
+font-size: 14px;
+border-radius: 50px;
+width: 300px;
+height: 40px;
+gap: 12px;}
+
+/*/ Thank you page logo /*/
+
+._2HCegihyidYXE6c3Ak2Vua{
+ margin-bottom: -30px;
 }
 
-.mobile form .NPSanchor span label{
-    height: 40px;
-    width: 40px;
-}
-
-.mobile form .OTanchor{
-    --typography-headline-size:18px;
- }
-
-  .mobile form .MCanchor{
-    --typography-headline-size:18px;
- }
-.mobile form .Text1{
-    margin-top: 100px;
-}
-
-.mobile form .Text2{
-   text-align: center !important;
-}
-.mobile form .surveyBtn.surveyBtn_back{
-    font-size: 16px;
-}
-.mobile form .surveyBtn.surveyBtn_next{
-    font-size: 16px;
-}
-
-.mobile form ._37oPR5iD8dKjivrJy_y6Vq ._3_foUkwcSeMY2vBraukrvR{
-font-size:10px }
 
 /* on mobile make form smaller to expose website underneath so it doesn't occupy the whole screen */
 #liveForm .kpl_builder .kpl-live-mobile {
@@ -207,4 +182,6 @@ font-size:10px }
     margin-top: 27px;
 }
 
-.surveyX { display: none; }
+
+:root
+{   --powered-by-display: none; }
