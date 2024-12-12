@@ -1,18 +1,5 @@
-@font-face {
-    font-family: 'IBM Plex Sans Arabic Regular';
-    src: url(https://media.roshn.sa/assets/fonts/IBMPlexSansArabic-Regular.ttf);
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'IBM Plex Sans Arabic Light';
-    src: url(https://media.roshn.sa/assets/fonts/IBMPlexSansArabic-Light.ttf);
-    font-style: normal;
-}
-
 
 :root{
-    --typography-fontFamily: 'IBM Plex Sans Arabic Regular';
     --powered-by-display: none;
     --palette-action-hover:transparent;
     --palette-core-primary: #468077;
