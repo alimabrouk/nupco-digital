@@ -74,7 +74,7 @@ margin-bottom: 10PX;
     margin-top: 20px;
     display: flex;
     justify-content: center;
-  --palette-rating-custom-outline: yellow;
+  --palette-rating-custom-outline: #c7a979;
 }
 
 .CSATanchor p.ratingMinLabel {
