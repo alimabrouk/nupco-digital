@@ -62,6 +62,16 @@ margin-bottom: 10PX;
 
 }
 
+.Ratingsanchor {
+    margin-top: 20px;
+    --palette-rating-custom-hover: #c7a979;
+    --palette-rating-custom-selected: #c7a979;
+    --palette-core-primary: #ffffff;
+    --palette-rating-custom-selected-outline: #c7a979;
+    --palette-rating-custom-outline: #c7a979;
+
+}
+
 /*/ CSAT And NPS Alignement and Colors /*/
 
 
