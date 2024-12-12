@@ -2,9 +2,8 @@
 :root{
     --powered-by-display: none;
     --palette-action-hover:transparent;
-    --palette-core-primary: #468077;
-    --palette-core-outline: lightgray;
-    --palette-core-components: #faf7f6;
+    --palette-core-primary: #c7a979;
+    --palette-core-outline: #252525;
     --questions-spacing: 10px;}
 
 
