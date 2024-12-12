@@ -16,7 +16,7 @@ overflow: hidden;
 cursor: pointer;
 color: white;
 flex: 0 1 auto;
-margin-left: -350px;
+margin-left: -750px;
 }
 :root{
 --powered-by-display: none;
@@ -51,11 +51,6 @@ margin-bottom: 10PX;
     padding-top: 5px !important;
 }
 
-
-.Ratingsanchor> div{
-    text-align: center !important;
-    display: initial;
-    }
 
 .Ratingsanchor> div > div{
     margin-top: 20px;
