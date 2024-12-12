@@ -14,7 +14,7 @@ margin-bottom: -20px;
 --palette-rating-number-selected: #c7a979;
 --palette-rating-number-hover: #c7a979;
 --palette-action-hover : #ffffff;
---palette-rating-custom-outline: yellow;
+--palette-rating-custom-outline: #c7a979;
 font-size: 16px}
 
 
@@ -52,9 +52,8 @@ margin-bottom: 10PX;
     --palette-rating-custom-selected: #c7a979;
     --palette-core-primary: #ffffff;
     --palette-rating-custom-selected-outline: #c7a979;
-    --palette-rating-custom-outline: yellow;
-    display: flex;
-    justify-content: center;
+    --palette-rating-custom-outline: #c7a979;
+
 }
 
 /*/ CSAT And NPS Alignement and Colors /*/
@@ -158,15 +157,6 @@ width: 130px; }
 
 
 /*/ Submit button modification /*/
-.surveyBtn.surveyBtn_submit {
-display: inline-block;
-padding: 6px 12px;
-margin-bottom: 0px;
-font-size: 14px;
-border: none;
-font-size: 14px;
-border-radius: 6px;
-width: 130px; }
 
 /*/ Submit button modification /*/
 .surveyBtn.surveyBtn_back{
