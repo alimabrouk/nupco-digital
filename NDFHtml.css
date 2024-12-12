@@ -5,8 +5,19 @@
 ._2HCegihyidYXE6c3Ak2Vua{
 margin-bottom: -20px;
 }
-
-
+._1De-hWu2XrYnO5hnFIWYwJ {
+width: 112px;
+padding: 7px 8px 9px;
+border-radius: 80px;
+font-size: 0.875rem;
+font-weight: 400;
+white-space: wrap;
+overflow: hidden;
+cursor: pointer;
+color: white;
+flex: 0 1 auto;
+margin-left: -350px;
+}
 :root{
 --powered-by-display: none;
 --questions-spacing: 15px;
