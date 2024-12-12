@@ -145,41 +145,7 @@ margin-bottom:15px;
 
 /*/ Hide close button from all pages /*/
 
-.surveyBtn.surveyBtn_close {
-display: inline-block;
-padding: 6px 12px;
-margin-bottom: 0px;
-font-size: 14px;
-border: none;
-font-size: 14px;
-border-radius: 6px;
-width: 130px; }
 
-
-/*/ Submit button modification /*/
-
-/*/ Submit button modification /*/
-.surveyBtn.surveyBtn_back{
-display: inline-block;
-padding: 6px 12px;
-margin-bottom: 0px;
-font-size: 14px;
-border: none;
-font-size: 14px;
-border-radius: 6px;
-width: 130px;
-}
-/*/ Next button modification /*/
-.surveyBtn.surveyBtn_next{
-display: inline-block;
-padding: 6px 12px;
-margin-bottom: 0px;
-font-size: 14px;
-border: none;
-font-size: 14px;
-border-radius: 6px;
-width: 130px;
-}
 
  /*/ Mobile displayform /*/
 /*/ Logo width /*/
