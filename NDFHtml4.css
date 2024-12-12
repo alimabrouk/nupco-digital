@@ -16,13 +16,13 @@ overflow: hidden;
 cursor: pointer;
 color: white;
 flex: 0 1 auto;
-margin-left: -750px;
+margin-left: -350px;
 }
 :root{
 --powered-by-display: none;
 --questions-spacing: 15px;
 --palette-action-hover: #ffffff;
---palette-rating-number-selected: #c7a979;
+--palette-rating-custom-selected: black;
 --palette-rating-number-hover: #c7a979;
 --palette-action-hover : #ffffff;
 --palette-rating-custom-outline: #c7a979;
@@ -55,7 +55,6 @@ margin-bottom: 10PX;
 .Ratingsanchor> div > div{
     margin-top: 20px;
     --palette-rating-custom-hover: #c7a979;
-    --palette-rating-custom-selected: #c7a979;
     --palette-core-primary: #ffffff;
     --palette-rating-custom-selected-outline: #c7a979;
     --palette-rating-custom-outline: #c7a979;
@@ -65,7 +64,6 @@ margin-bottom: 10PX;
 .Ratingsanchor {
     margin-top: 20px;
     --palette-rating-custom-hover: #c7a979;
-    --palette-rating-custom-selected: #c7a979;
     --palette-core-primary: #ffffff;
     --palette-rating-custom-selected-outline: #c7a979;
     --palette-rating-custom-outline: #c7a979;
