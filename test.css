@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'CoHeadlineTrial';
+    src: url(https://in-prod-styleguide.nupco.com/fonts/CoHeadlineTrial-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+ 
+@font-face {
+    font-family: 'CoHeadlineTrial-Bold';
+    src: url(https://in-prod-styleguide.nupco.com/fonts/CoHeadlineTrial-Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'CoHeadlineTrial-Light';
+    src: url(https://in-prod-styleguide.nupco.com/fonts/CoHeadlineTrial-Light.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Text {
+  font-family: 'CoHeadlineTrial' !important;
+  margin-top: 15px;
+}
+
+
+span {
+  font-family: 'CoHeadlineTrial' !important;
+}
+
+
+/*/ Header/*/
+._1SPV2GZjz0ekDKiu5qBJ16 {
+padding: 8px 0px;
+display: flex;
+justify-content: flex-end;
+border-style: solid;
+border-color: #1C2346 #1C2346 #E3151C #1C2346;
+background-color: #1C2346 !important;
+}
+
+
+.LJ5dDI1qRFssk1ka4roCr ._2tHW0cyET9DNu6CMvxGOlL{
+  width: auto;
+}
+ 
+
+/*/ Submit button modification /*/
+.surveyBtn.surveyBtn_submit {
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0px;
+font-size: 14px;
+border: none;
+font-size: 14px;
+border-radius: 6px;
+width: 130px; }
+
+/*/ Next button modification /*/
+.surveyBtn.surveyBtn_close{
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0px;
+font-size: 14px;
+border: none;
+font-size: 14px;
+border-radius: 6px;
+width: 130px;
+}
+
+
+:root{
+--typography-fontFamily: 'CoHeadlineTrial';
+--powered-by-display: none;
+--questions-spacing: 15px;
+--palette-rating-number-selected: #E06E0E;
+--palette-rating-number-hover: #1C2346;
+--palette-action-hover : transparent;
+--palette-typography-body: #1C2346;
+--palette-typography-headline: #1C2346;
+--palette-core-outline: lightgray; 
+--palette-core-primary: #ffffff}
+
+
+.surveyX {color: white; }
+
+form footer {
+    margin-top: 10px;
+}
+
+
+/*/ CSAT And NPS Alignement and Colors /*/
+
+
+._1_7PScJ_jiqe-TBSrlCh24 ._3_foUkwcSeMY2vBraukrvR{
+    width: 40px;
+    height: 40px;
+ }
+
+.CSAT1> div{
+    text-align: center !important;
+    display: initial;
+    }
+
+
+.CSAT1 > div > div{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.CSAT1 p.ratingMinLabel {
+    text-align: center !important;
+}
+
+.CSAT1 p.ratingMaxLabel{
+    text-align: center !important;
+}
+
+/*/ Logo width /*/
+
+.logo{
+max-width: 35%;  
+margin-bottom: -10px; 
+}
+
+/*/ Choices sets Alignement and Colors /*/
+
+.MCanchor > span > ul{
+margin-top: 15px;
+--palette-action-hover: #E06E0E;
+--palette-core-primary: #E06E0E;
+--palette-group-mark-background:#E06E0E;
+--palette-rating-number-selected:#E06E0E;
+--palette-core-primary:#E06E0E;
+--palette-action-active:transparent;
+--palette-core-outline: lightgray;
+    min-width: auto;
+    width: 350px;
+    display: inline-flex !important ;
+    flex-direction: column !important;
+}
+
+
+
+ /*/ Mobile displayform /*/
+/*/ Logo width /*/
+
+
+/* on mobile make form smaller to expose website underneath so it doesn't occupy the whole screen */
+#liveForm .kpl_builder .kpl-live-mobile {
+    border: none;
+    box-shadow: none;
+    height: 92% !important;
+    width: 95% !important;
+    margin-top: 27px;
+}
