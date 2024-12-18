@@ -1,11 +1,29 @@
-
 .Text {
   font-family: 'CoHeadlineTrial' !important;
   margin-top: 15px;
 }
 
 
+span {
+  font-family: 'CoHeadlineTrial' !important;
+}
 
+
+/*/ Header/*/
+._1SPV2GZjz0ekDKiu5qBJ16 {
+padding: 8px 0px;
+display: flex;
+justify-content: flex-end;
+border-style: solid;
+border-color: #1C2346 #1C2346 #E3151C #1C2346;
+background-color: #1C2346 !important;
+}
+
+
+.LJ5dDI1qRFssk1ka4roCr ._2tHW0cyET9DNu6CMvxGOlL{
+  width: auto;
+}
+ 
 
 /*/ Submit button modification /*/
 .surveyBtn.surveyBtn_submit {
@@ -29,7 +47,6 @@ font-size: 14px;
 border-radius: 6px;
 width: 130px;
 }
-
 
 :root{
 --powered-by-display: none;
@@ -84,6 +101,24 @@ form footer {
 max-width: 35%;  
 margin-bottom: -10px; 
 }
+
+/*/ Choices sets Alignement and Colors /*/
+
+.MCanchor > span > ul{
+margin-top: 15px;
+--palette-action-hover: #E06E0E;
+--palette-core-primary: #E06E0E;
+--palette-group-mark-background:#E06E0E;
+--palette-rating-number-selected:#E06E0E;
+--palette-core-primary:#E06E0E;
+--palette-action-active:transparent;
+--palette-core-outline: lightgray;
+    min-width: auto;
+    width: 350px;
+    display: inline-flex !important ;
+    flex-direction: column !important;
+}
+
 
 
  /*/ Mobile displayform /*/
