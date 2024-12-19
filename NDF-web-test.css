@@ -53,9 +53,8 @@ width: 130px;
 --palette-core-primary: #ffffff}
 
 
-.surveyX {
-  color: transparent; 
-}
+.surveyX { 
+  display: none; }
 
 form footer {
     margin-top: 10px;
