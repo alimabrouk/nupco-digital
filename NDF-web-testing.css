@@ -10,7 +10,6 @@
 
 .Text {
   font-family: 'Cairo' !important;
-  margin-top: 15px;
 }
 
 .LJ5dDI1qRFssk1ka4roCr ._2tHW0cyET9DNu6CMvxGOlL{
@@ -54,7 +53,9 @@ width: 130px;
 --palette-core-primary: #ffffff}
 
 
-.surveyX {color: transparent; }
+.surveyX {
+  color: transparent; 
+}
 
 form footer {
     margin-top: 10px;
