@@ -27,7 +27,7 @@ margin-bottom: 0px;
 font-size: 14px;
 border: none;
 font-size: 14px;
-border-radius: 6px;
+border-radius: 0px;
 width: 130px; }
 
 /*/ Next button modification /*/
@@ -38,7 +38,7 @@ margin-bottom: 0px;
 font-size: 14px;
 border: none;
 font-size: 14px;
-border-radius: 6px;
+border-radius: 0px;
 width: 130px;
 }
 
@@ -47,11 +47,11 @@ width: 130px;
 --powered-by-display: none;
 --questions-spacing: 15px;
 --palette-rating-number-selected: #c7a979;
---palette-rating-number-hover: #252525;
+--palette-rating-number-hover: #747474;
 --palette-action-hover : transparent;
---palette-typography-body: #1a1d20;
---palette-typography-headline: #1a1d20;
---palette-core-outline: #252525; 
+--palette-typography-body: #747474;
+--palette-typography-headline: #747474;
+--palette-core-outline: #747474; 
 --palette-core-primary: #ffffff}
 
 
@@ -82,8 +82,8 @@ width: 130px;
     display: -webkit-inline-box;
     --palette-rating-custom-hover: #c7a979;
     --palette-rating-custom-selected: #c7a979;
-    --palette-rating-custom-selected-outline: #252525;
-    --palette-rating-custom-outline: #252525;
+    --palette-rating-custom-selected-outline: #747474;
+    --palette-rating-custom-outline: #747474;
     display: flex;
     justify-content: center;
 }
