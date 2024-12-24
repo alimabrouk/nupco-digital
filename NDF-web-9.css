@@ -100,8 +100,10 @@ border: 1px solid #C7A979;
     border-radius: 1px;
 }
 
-
-.NPSanchor > div > div > div{
+.NPSanchor > div:nth-child(1){
+    border-radius: 1px;
+}
+.NPSanchor > div > div > div > div:nth-child(1){
     border-radius: 1px;
 }
 
