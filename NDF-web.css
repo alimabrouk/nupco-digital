@@ -92,6 +92,13 @@ border: 1px solid #C7A979;
     justify-content: center;
 }
 
+.Ratingsanshor p.ratingMinLabel {
+    text-align: center !important;
+}
+
+.Ratingsanshor p.ratingMaxLabel{
+    text-align: center !important;
+}
 
 .mediumSurvey ._37oPR5iD8dKjivrJy_y6Vq ._3_foUkwcSeMY2vBraukrvR{
     border-radius: 1px;
