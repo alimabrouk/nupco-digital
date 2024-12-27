@@ -74,15 +74,13 @@ border: 1px solid #C7A979;
     height: 40px;
  }
 
-.Ratings span label{
+.Ratingsanshor span label{
     height: 40px;
     width: 40px;
     padding-top: 5px !important;
     font-size: 14px;
-    direction: rtl; /* Set text direction to right-to-left */
-    text-align: right; /* Align the text to the right */
 }
-.Ratings {
+html[lang="ar"].Ratingsanshor {
     direction: rtl; /* Set text direction to right-to-left */
     text-align: right; /* Align the text to the right */
 }
