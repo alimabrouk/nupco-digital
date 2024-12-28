@@ -109,7 +109,9 @@ display: flex;
 flex-direction: row-reverse;
 }
 
-
+html[lang="ar"] .Ratingsanshor p.ratingMinLabel {
+margin-right: 2vw;
+}
 .Ratingsanshor p.ratingMinLabel {
     text-align: center !important;
 }
