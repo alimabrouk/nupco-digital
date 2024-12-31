@@ -110,6 +110,15 @@ border: 1px solid #C7A979;
     text-align: center !important;
 }
 
+html[lang="ar"] .Ratingsanshor> div > div{
+    direction: rtl;
+}
+
+
+html[lang="ar"].Ratingsanshor> div >div:nth-child(1){
+margin-left: 1;
+}
+
 .mediumSurvey ._37oPR5iD8dKjivrJy_y6Vq ._3_foUkwcSeMY2vBraukrvR{
     border-radius: 1px;
 }
