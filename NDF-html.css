@@ -92,7 +92,28 @@ border: 1px solid #C7A979;
     justify-content: center;
 }
 
+html[lang="ar"] .Ratingsanshor> div > div{
+    direction: rtl;
+}
 
+html[lang="ar"] .NPSanchor> div > div{
+    direction: rtl;
+}
+
+html[lang="ar"] .NPSanchor p.ratingMinLabel {
+    text-align: right !important;
+}
+
+html[lang="ar"] .NPSanchor p.ratingMaxLabel{
+    text-align: left !important;
+}
+
+
+
+.directionRightToLeft .LJ5dDI1qRFssk1ka4roCr ._3_foUkwcSeMY2vBraukrvR:first-child{
+margin-left: unset;
+margin-left: 10px;
+}
 
 
 /*/ Logo width /*/
