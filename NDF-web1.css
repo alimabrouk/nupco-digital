@@ -120,7 +120,7 @@ margin-left:1;
 }
 
 
-html[lang="ar"].Ratingsanshor .Ratingsanshor:nth-child(1){
+.Ratingsanshor> div> div> div:nth-child(1){
     border-radius: 1px !important;
 }
 
