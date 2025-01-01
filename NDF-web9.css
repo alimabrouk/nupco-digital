@@ -115,15 +115,11 @@ html[lang="ar"] .Ratingsanshor> div > div{
 }
 
 
-.directionRightToLeft .LJ5dDI1qRFssk1ka4roCr ._3_foUkwcSeMY2vBraukrvR:first-child{
+.Ratingsanshor> div> div> div:nth-child(1){
 margin-left: unset;
 margin-left: 10px;
 }
 
-
-.Ratingsanshor> div> div> div:nth-child(1){
-    border-radius: 1px !important;
-}
 
 .LJ5dDI1qRFssk1ka4roCr ._2tHW0cyET9DNu6CMvxGOlL{
     width: auto;
