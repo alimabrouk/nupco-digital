@@ -108,6 +108,13 @@ html[lang="ar"] .NPSanchor p.ratingMaxLabel{
     text-align: left !important;
 }
 
+html[lang="ar"] .Ratingsanshor p.ratingMinLabel {
+    text-align: right !important;
+}
+
+html[lang="ar"] .Ratingsanshor p.ratingMaxLabel{
+    text-align: left !important;
+}
 
 
 .directionRightToLeft .LJ5dDI1qRFssk1ka4roCr ._3_foUkwcSeMY2vBraukrvR:first-child{
