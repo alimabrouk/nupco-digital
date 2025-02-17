@@ -1,0 +1,274 @@
+/*/ Header/*/
+._1SPV2GZjz0ekDKiu5qBJ16 {
+padding: 8px 0px;
+display: flex;
+justify-content: flex-end;
+border-style: solid;
+border-color: #ffffff #ffffff #ffffff #ffffff;
+background-color: #ffffff !important;
+}
+
+
+.LJ5dDI1qRFssk1ka4roCr ._2tHW0cyET9DNu6CMvxGOlL{
+  width: auto;
+}
+ 
+
+/*/ Survey button modification /*/
+._207sw0FPxzBQQBPqaDdUpd._2oEpWcfZnCvjbVRDL7a213 > div{
+max-width: 100%}
+
+/*/ Submit button modification /*/
+.surveyBtn.surveyBtn_submit {
+height: 100%;
+display: flex!important;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #91dfda;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: .08px;
+color: #002a30!important;
+text-transform: capitalize;}
+
+.surveyBtn.surveyBtn_submit:hover {
+background-color: #80df80 !important; /* Ensure the background turns blue */
+}
+
+._2HCegihyidYXE6c3Ak2Vua {
+    max-width: 40%;
+    /* max-height: 144px; */
+    margin-bottom: -5px;
+    display: flex;
+}
+
+/*/ Close button modification /*/
+
+.surveyBtn.surveyBtn_close{
+display: none;}
+
+
+/*/ Next button modification /*/
+.surveyBtn.surveyBtn_next{
+height: 100%;
+display: flex!important;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #91dfda;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: .08px;
+color: #002a30!important;
+text-transform: capitalize;}
+
+
+.surveyBtn.surveyBtn_next:hover {
+background-color: #80df80 !important; /* Ensure the background turns blue */
+}
+
+/*/ Back button modification /*/
+
+.surveyBtn.surveyBtn_back{
+height: 100%;
+display: flex!important;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #91dfda;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: .08px;
+color: #002a30!important;
+text-transform: capitalize;}
+
+._207sw0FPxzBQQBPqaDdUpd > div{
+max-width: 100%}
+
+:root{
+--powered-by-display: none;
+--questions-spacing: 15px;
+--palette-rating-number-selected: #91DFDA;
+--palette-rating-number-hover: #91DFDA;
+--palette-action-hover : transparent;
+--palette-typography-body: rgb(0, 0, 78);
+--palette-typography-headline:rgb(0, 0, 78);
+--palette-core-outline: lightgray; 
+--palette-core-primary: #ffffff}
+
+
+.surveyX {--palette-core-outline: rgba(44, 53, 72, 0.56);
+            color: white }
+
+form footer {
+    margin-top: -10px;
+}
+
+
+/*/ CSAT And NPS Alignement and Colors /*/
+
+
+._1_7PScJ_jiqe-TBSrlCh24 ._3_foUkwcSeMY2vBraukrvR{
+    width: 40px;
+    height: 40px;
+ }
+
+.CSAT1> div{
+    text-align: center !important;
+    display: initial;
+    }
+
+
+.CSAT1 > div > div{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.CSAT1 p.ratingMinLabel {
+    text-align: center !important;
+}
+
+.CSAT1 p.ratingMaxLabel{
+    text-align: center !important;
+}
+
+/*/ Logo width /*/
+
+.logo{
+max-width: 35%;  
+margin-bottom: -10px; 
+}
+
+/*/ CSAT And NPS Alignement and Colors /*/
+
+
+[lang="ar"] .CSAT1 > div > div {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+
+[lang="ar"] .directionRightToLeft .LJ5dDI1qRFssk1ka4roCr ._3_foUkwcSeMY2vBraukrvR:first-child {
+    margin-left: 15px;
+}
+
+
+[lang="ar"] .CSAT1 > div > div._1_7PScJ_jiqe-TBSrlCh24{
+    position: relative;
+    margin-right: 20px;
+}
+
+[lang="ar"] #survey-wrapper > form > main > div._1BI5B2xY6xMD9hHPCMgWgM.logo > div > img {
+    text-align: right !important;
+}
+
+
+html[lang="ar"] .logo {
+    margin-left: 240px;
+}
+html[lang="ar"] ._2HCegihyidYXE6c3Ak2Vua {
+    margin-left: 200px;
+}
+/*/ Choices sets Alignement and Colors /*/
+
+.MCanchor > span > ul{
+margin-top: 15px;
+--palette-action-hover: #00bf00;
+--palette-core-primary: #00bf00;
+--palette-group-mark-background:#00bf00;
+--palette-rating-number-selected:#00bf00;
+--palette-core-primary:#00bf00;
+--palette-action-active:transparent;
+--palette-core-outline: lightgray;
+    min-width: auto;
+    width: 350px;
+    display: inline-flex !important ;
+    flex-direction: column !important;
+}
+
+
+.YNanchor > span > ul{
+margin-top: 15px;
+--palette-action-hover: #00bf00;
+--palette-core-primary: #00bf00;
+--palette-group-mark-background:#00bf00;
+--palette-rating-number-selected:#00bf00;
+--palette-core-primary:#00bf00;
+--palette-action-active:transparent;
+--palette-core-outline: lightgray;
+
+}
+
+/*/ Hide close button from all pages /*/
+
+.surveyBtn.surveyBtn_close { Display:none;}
+
+/*/ Submit button modification /*/
+.surveyBtn.surveyBtn_submit {
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0px;
+font-size: 14px;
+border: none;
+font-size: 14px;
+border-radius: 6px;
+width: 150px; }
+
+/*/ Submit button modification /*/
+.surveyBtn.surveyBtn_back{
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0px;
+font-size: 14px;
+border: none;
+font-size: 14px;
+border-radius: 6px;
+width: 150px;
+}
+/*/ Next button modification /*/
+.surveyBtn.surveyBtn_next{
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0px;
+font-size: 14px;
+border: none;
+font-size: 14px;
+border-radius: 6px;
+width: 150px;
+}
+
+ /*/ Mobile displayform /*/
+/*/ Logo width /*/
+
+
+.mobile form .surveyBtn.surveyBtn_back{
+    font-size: 16px;
+}
+.mobile form .surveyBtn.surveyBtn_next{
+    font-size: 16px;
+}
+.mobile form .surveyBtn.submit{
+    font-size: 16px;
+}
+
+.mobile form ._37oPR5iD8dKjivrJy_y6Vq ._3_foUkwcSeMY2vBraukrvR{
+font-size:10px }
+
+/* on mobile make form smaller to expose website underneath so it doesn't occupy the whole screen */
+#liveForm .kpl_builder .kpl-live-mobile {
+    border: none;
+    box-shadow: none;
+    height: 92% !important;
+    width: 95% !important;
+    margin-top: 27px;
+}
