@@ -98,8 +98,8 @@ max-width: 100%}
 --palette-rating-number-selected: #91DFDA;
 --palette-rating-number-hover: #91DFDA;
 --palette-action-hover : transparent;
---palette-typography-body: rgb(0, 0, 78);
---palette-typography-headline:rgb(0, 0, 78);
+--palette-typography-body: #ffffff;
+--palette-typography-headline:#ffffff;
 --palette-core-outline: lightgray; 
 --palette-core-primary: #ffffff}
 
