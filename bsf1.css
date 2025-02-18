@@ -30,6 +30,7 @@ padding: 0px 1rem !important;}
 
 .surveyBtn.surveyBtn_submit:hover {
 background-color: #002a30 !important; /* Ensure the background turns blue */
+color: #ffffff;
 }
 
 /*/ Next button modification /*/
@@ -45,6 +46,7 @@ padding: 0px 1rem !important;}
 
 .surveyBtn.surveyBtn_next:hover {
 background-color: #002a30 !important; /* Ensure the background turns blue */
+color: #ffffff;
 }
 
 /*/ Back button modification /*/
@@ -60,6 +62,7 @@ padding: 0px 1rem !important;}
 
 .surveyBtn.surveyBtn_back:hover {
 background-color: #002a30 !important; /* Ensure the background turns blue */
+color: #ffffff;
 }
 ._2HCegihyidYXE6c3Ak2Vua {
     max-width: 40%;
