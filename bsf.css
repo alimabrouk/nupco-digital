@@ -20,24 +20,50 @@ max-width: 100%}
 
 /*/ Submit button modification /*/
 .surveyBtn.surveyBtn_submit {
-height: 100%;
-display: flex!important;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-background-color: #91dfda;
+display: inline-block;
+padding: 0 1rem !important;
+margin-bottom: 0px;
 font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 25px;
-letter-spacing: .08px;
-color: #002a30!important;
-text-transform: capitalize;}
+border: none;
+border-radius: .5rem;
+transition: background-color .2s ease-out;
+padding: 0px 1rem !important;}
 
 .surveyBtn.surveyBtn_submit:hover {
-background-color: #80df80 !important; /* Ensure the background turns blue */
+background-color: #002a30 !important; /* Ensure the background turns blue */
 }
 
+/*/ Next button modification /*/
+.surveyBtn.surveyBtn_next{
+display: inline-block;
+padding: 0 1rem !important;
+margin-bottom: 0px;
+font-size: 16px;
+border: none;
+border-radius: .5rem;
+transition: background-color .2s ease-out;
+padding: 0px 1rem !important;}
+
+
+.surveyBtn.surveyBtn_next:hover {
+background-color: #002a30 !important; /* Ensure the background turns blue */
+}
+
+/*/ Back button modification /*/
+
+.surveyBtn.surveyBtn_back{
+display: inline-block;
+padding: 0 1rem !important;
+margin-bottom: 0px;
+font-size: 16px;
+border: none;
+border-radius: .5rem;
+transition: background-color .2s ease-out;
+padding: 0px 1rem !important;}
+
+.surveyBtn.surveyBtn_back:hover {
+background-color: #002a30 !important; /* Ensure the background turns blue */
+}
 ._2HCegihyidYXE6c3Ak2Vua {
     max-width: 40%;
     /* max-height: 144px; */
@@ -98,10 +124,10 @@ max-width: 100%}
 --palette-rating-number-selected: #91DFDA;
 --palette-rating-number-hover: #91DFDA;
 --palette-action-hover : transparent;
---palette-typography-body: #ffffff;
---palette-typography-headline:#ffffff;
+--palette-typography-body: #002228;
+--palette-typography-headline:#002228;
 --palette-core-outline: lightgray; 
---palette-core-primary: #ffffff}
+--palette-core-primary: #002228}
 
 
 .surveyX {--palette-core-outline: rgba(44, 53, 72, 0.56);
@@ -142,9 +168,8 @@ form footer {
 
 /*/ Logo width /*/
 
-.logo{
-max-width: 35%;  
-margin-bottom: -10px; 
+._2wEE-RNoShvEqNpNB4ISFm {
+max-width: 50%;
 }
 
 /*/ CSAT And NPS Alignement and Colors /*/
