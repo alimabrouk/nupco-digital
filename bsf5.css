@@ -236,39 +236,6 @@ margin-top: 15px;
 
 .surveyBtn.surveyBtn_close { Display:none;}
 
-/*/ Submit button modification /*/
-.surveyBtn.surveyBtn_submit {
-display: inline-block;
-padding: 6px 12px;
-margin-bottom: 0px;
-font-size: 14px;
-border: none;
-font-size: 14px;
-border-radius: 6px;
-width: 150px; }
-
-/*/ Submit button modification /*/
-.surveyBtn.surveyBtn_back{
-display: inline-block;
-padding: 6px 12px;
-margin-bottom: 0px;
-font-size: 14px;
-border: none;
-font-size: 14px;
-border-radius: 6px;
-width: 150px;
-}
-/*/ Next button modification /*/
-.surveyBtn.surveyBtn_next{
-display: inline-block;
-padding: 6px 12px;
-margin-bottom: 0px;
-font-size: 14px;
-border: none;
-font-size: 14px;
-border-radius: 6px;
-width: 150px;
-}
 
  /*/ Mobile displayform /*/
 /*/ Logo width /*/
