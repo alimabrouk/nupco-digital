@@ -39,7 +39,6 @@ html[lang="ar"] .Ratingsanshor> div > div{
 --questions-spacing: 10px;
 --palette-rating-number-selected: #11b58e;
 --palette-rating-number-hover: #11b58e;
---palette-action-hover : transparent;
 --palette-typography-body: #000000;
 --palette-typography-headline:#000000;
 --palette-core-outline: #007e97; 
@@ -97,22 +96,6 @@ margin-bottom: 10PX;
     display: flex;
     justify-content: center;
 }
-/*/ Submit button modification /*/
-
-.thankYouPageButtonPreview{
-    display: none;
-}
-<button id="concludeButton">Conclure</button>
-.concludeButton {
-    background-color: red;
-    color: white;
-    border-radius: 4px;
-    border: none;  /* No border around the button */
-    padding: 10px 20px;  /* Adjust padding for better size */
-    font-size: 16px;  /* Text size */
-    cursor: pointer;  /* Cursor changes to a pointer when hovered */
-}
-
 
 .
 
