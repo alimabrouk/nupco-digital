@@ -35,7 +35,6 @@ border: 1px solid #C7A979;
 }
 
 :root{
---typography-fontFamily:'Cairo';
 --powered-by-display: none;
 --questions-spacing: 5px;
 --palette-rating-number-selected: #c7a979;
@@ -73,15 +72,15 @@ border: 1px solid #C7A979;
 
 .Ratingsanshor> div > div{
     display: -webkit-inline-box;
-    --palette-rating-custom-hover: #c7a979;
-    --palette-rating-custom-selected: #c7a979;
-    --palette-rating-custom-selected-outline: #c7a979;
-    --palette-rating-custom-outline: #dfdfdf;
+    --palette-rating-custom-hover: #468077;
+    --palette-rating-custom-selected: #468077;
+    --palette-rating-custom-selected-outline: #8cb0ab;
+    --palette-rating-custom-outline: #8cb0ab;
     display: flex;
     justify-content: center;
     cursor: pointer;
     transition: color 0.2s ease;
-    --palette-core-components: #dfdfdf;
+    --palette-core-components: #8cb0ab;
 }
 
 /* Apply hover effect to the hovered star */
