@@ -1,26 +1,130 @@
+
+
+/*/ Submit button modification /*/
+.surveyBtn.surveyBtn_submit {
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0px;
+font-size: 14px;
+border: none;
+font-size: 14px;
+border-radius: 0px;
+width: 130px; }
+
+/*/ Next button modification /*/
+.surveyBtn.surveyBtn_close{
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0px;
+font-size: 14px;
+border: none;
+font-size: 14px;
+border-radius: 0px;
+width: 130px;
+border: 1px solid #C7A979;
+}
+
+:root{
+--typography-fontFamily:'Cairo';
+--powered-by-display: none;
+--questions-spacing: 5px;
+--palette-rating-number-selected: #c7a979;
+--palette-rating-number-hover: #747474;
+--palette-action-hover : transparent;
+--palette-typography-body: #747474;
+--palette-typography-headline: #747474;
+--palette-core-outline: #747474; 
+--palette-core-primary: #ffffff}
+
+
+.surveyX { 
+  display: none; }
+/*/ CSAT And NPS Alignement and Colors /*/
+
+
+
 .Ratingsanshor> div{
     text-align: center !important;
     display: initial;
     }
 
+
 .Ratingsanshor> div > div{
-    margin-top: 20px;
-    --palette-rating-custom-hover: #468077;
-    --palette-rating-custom-selected: #468077;
-    --palette-core-primary: #ffffff;
-    --palette-rating-custom-selected-outline: #ffffff;
-    --palette-rating-custom-outline: #8cb0ab;
+    display: -webkit-inline-box;
+    --palette-rating-custom-hover: #c7a979;
+    --palette-rating-custom-selected: #c7a979;
+    --palette-rating-custom-selected-outline: #c7a979;
+    --palette-rating-custom-outline: #dfdfdf;
     display: flex;
     justify-content: center;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    --palette-core-components: #dfdfdf;
 }
 
-.Ratingsanshor > div > div:hover {
---palette-rating-custom-outline: #007e97;
+/* Apply hover effect to the hovered star */
+.Ratingsanshor > div > div:hover{
+
+    --palette-rating-custom-outline: transparent;
+
 }
 
-.Ratingsanshor > div > div{
-    margin-top: 5px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
+
+
+.Ratingsanshor p.ratingMinLabel {
+    text-align: center !important;
 }
+
+.Ratingsanshor p.ratingMaxLabel{
+    text-align: center !important;
+}
+
+html[lang="ar"] .Ratingsanshor> div > div{
+    direction: rtl;
+}
+
+
+
+.mediumSurvey ._37oPR5iD8dKjivrJy_y6Vq ._3_foUkwcSeMY2vBraukrvR{
+border-radius: 1px;
+}
+
+.directionRightToLeft .LJ5dDI1qRFssk1ka4roCr ._3_foUkwcSeMY2vBraukrvR:first-child{
+margin-left: unset;
+margin-left: 10px;
+}
+
+
+.LJ5dDI1qRFssk1ka4roCr ._2tHW0cyET9DNu6CMvxGOlL{
+    width: auto;
+}
+
+
+/*/ Logo width /*/
+
+.logo{
+max-width: 35%;  
+margin-bottom: -10px; 
+}
+
+
+
+
+ /*/ Mobile displayform /*/
+/*/ Logo width /*/
+
+
+/* on mobile make form smaller to expose website underneath so it doesn't occupy the whole screen */
+#liveForm .kpl_builder .kpl-live-mobile {
+    border: none;
+    box-shadow: none;
+    height: 92% !important;
+    width: 95% !important;
+    margin-top: 27px;
+}
+
+
+
+
+
+
