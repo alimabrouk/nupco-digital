@@ -1,3 +1,9 @@
+._2wEE-RNoShvEqNpNB4ISFm {
+max-width: 60%;
+margin-bottom: 10px;
+}
+
+
 form footer {
 margin-top: 0px;
 }
@@ -112,17 +118,6 @@ margin-left: 10px;
     width: auto;
 }
 
-
-/*/ Logo width /*/
-
-.logo{
-max-width: 35%;  
-margin-bottom: -10px; 
-}
-
-
- /*/ Mobile displayform /*/
-/*/ Logo width /*/
 
 
 /* on mobile make form smaller to expose website underneath so it doesn't occupy the whole screen */
