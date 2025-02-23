@@ -1,4 +1,38 @@
+-----
+.Ratingsanshor> div > div{
+    display: -webkit-inline-box;
+    --palette-rating-custom-hover: #c7a979;
+    --palette-rating-custom-selected: #c7a979;
+    --palette-rating-custom-selected-outline: #c7a979;
+    --palette-rating-custom-outline: #dfdfdf;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    --palette-core-components: #dfdfdf;
+}
 
+/* Apply hover effect to the hovered star */
+.Ratingsanshor > div > div:hover{
+
+    --palette-rating-custom-outline: transparent;
+
+}
+
+
+
+.Ratingsanshor p.ratingMinLabel {
+    text-align: center !important;
+}
+
+.Ratingsanshor p.ratingMaxLabel{
+    text-align: center !important;
+}
+
+html[lang="ar"] .Ratingsanshor> div > div{
+    direction: rtl;
+}
+----
 
 :root{
 --powered-by-display: none;
@@ -88,8 +122,9 @@ line-height: 1.25;
 text-decoration: none;
 border-radius: 40px;
 display: inline-block;
+-webkit-transition: all 0.32s ease-in-out;
 transition: all 0.32s ease-in-out;
-font-size: 14px;
+font-size: 12px;
 border: 2px solid #007e97}
 
 .surveyBtn.surveyBtn_submit:hover {
