@@ -1,14 +1,14 @@
 
-
-form footer {
-margin-top: 5px;
-}
-
-
-
- ._1gDWhTn4ItIcESRSxS5AuC{
- margin-bottom: -50px;
-}
+:root{
+--powered-by-display: none;
+--questions-spacing: 5px;
+--palette-rating-number-selected: #c7a979;
+--palette-rating-number-hover: #747474;
+--palette-action-hover : transparent;
+--palette-typography-body: #747474;
+--palette-typography-headline: #747474;
+--palette-core-outline: #747474; 
+--palette-core-primary: #ffffff;}
 
 /*/ Submit button modification /*/
 .surveyBtn.surveyBtn_submit {
@@ -26,37 +26,21 @@ transition: all 0.32s ease-in-out;}
 background-color: #11b58e !important; /* Ensure the background turns blue */
 }
 
-/*/ Next button modification /*/
-.surveyBtn.surveyBtn_close{
-display: inline-block;
- border-radius: 40px;
+/*/ Submit button modification /*/
+.surveyBtn.surveyBtn_close {
 display: inline-block;
 padding: 6px 12px;
 margin-bottom: 0px;
 font-size: 14px;
 font-size: 14px;
 border-radius: 0px;
-width: 130px;
+width: 130px; 
 border: 2px solid #2596be;
-transition: all 0.32s ease-in-out;
+transition: all 0.32s ease-in-out;}
+
+.surveyBtn.surveyBtn_close:hover {
+background-color: #11b58e !important; /* Ensure the background turns blue */
 }
-.surveyBtn.surveyBtn_submit:hover {
-background-color: #11b58e} !important; /* Ensure the background turns blue */
-}
-
-:root{
---typography-fontFamily:'Cairo';
---powered-by-display: none;
---questions-spacing: 5px;
---palette-rating-number-selected: #c7a979;
---palette-rating-number-hover: #747474;
---palette-action-hover : transparent;
---palette-typography-body: #747474;
---palette-typography-headline: #747474;
---palette-core-outline: #747474; 
---palette-core-primary: #ffffff}
-
-
 
 .surveyX { 
   display: none; }
