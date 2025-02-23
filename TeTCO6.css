@@ -16,33 +16,43 @@ display: inline-block;
 padding: 6px 12px;
 margin-bottom: 0px;
 font-size: 14px;
-border: none;
 font-size: 14px;
 border-radius: 0px;
-width: 130px; }
+width: 130px; 
+border: 2px solid #2596be;
+transition: all 0.32s ease-in-out;}
+
+.surveyBtn.surveyBtn_submit:hover {
+background-color: #11b58e !important; /* Ensure the background turns blue */
+}
 
 /*/ Next button modification /*/
 .surveyBtn.surveyBtn_close{
 display: inline-block;
+ border-radius: 40px;
+display: inline-block;
 padding: 6px 12px;
 margin-bottom: 0px;
 font-size: 14px;
-border: none;
 font-size: 14px;
 border-radius: 0px;
 width: 130px;
-border: 1px solid #C7A979;
+border: 2px solid #2596be;
+transition: all 0.32s ease-in-out;
+}
+.surveyBtn.surveyBtn_submit:hover {
+background-color: #11b58e} !important; /* Ensure the background turns blue */
 }
 
 :root{
 --powered-by-display: none;
 --questions-spacing: 5px;
---palette-rating-number-selected: #c7a979;
---palette-rating-number-hover: #747474;
+--palette-rating-number-selected: #11b58e;
+--palette-rating-number-hover: #2596be;
 --palette-action-hover : transparent;
---palette-typography-body: #747474;
---palette-typography-headline: #747474;
---palette-core-outline: #747474; 
+--palette-typography-body: #2596be;
+--palette-typography-headline: #2596be;
+--palette-core-outline: #2596be; 
 --palette-core-primary: #ffffff}
 
 
@@ -72,15 +82,14 @@ border: 1px solid #C7A979;
 
 .Ratingsanshor> div > div{
     display: -webkit-inline-box;
-    --palette-rating-custom-hover: #468077;
-    --palette-rating-custom-selected: #468077;
-    --palette-rating-custom-selected-outline: #8cb0ab;
-    --palette-rating-custom-outline: #8cb0ab;
+    --palette-rating-custom-hover: #11b58e;
+    --palette-rating-custom-selected: #11b58e;
+    --palette-rating-custom-selected-outline: #11b58e;
+    --palette-rating-custom-outline: #11b58e;
     display: flex;
     justify-content: center;
     cursor: pointer;
     transition: color 0.2s ease;
-    --palette-core-components: #8cb0ab;
 }
 
 /* Apply hover effect to the hovered star */
