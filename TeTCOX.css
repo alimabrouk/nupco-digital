@@ -2,12 +2,10 @@
 :root{
 --powered-by-display: none;
 --questions-spacing: 5px;
---palette-rating-number-selected: #c7a979;
---palette-rating-number-hover: #747474;
+--palette-rating-number-selected: #11b58e;
+--palette-rating-number-hover: #2596be;
 --palette-action-hover : transparent;
---palette-typography-body: #747474;
---palette-typography-headline: #747474;
---palette-core-outline: #747474; 
+--palette-core-outline: #2596be; 
 --palette-core-primary: #ffffff;}
 
 /*/ Submit button modification /*/
