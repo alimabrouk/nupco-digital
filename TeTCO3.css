@@ -1,38 +1,36 @@
 
 
+form footer {
+margin-top: 5px;
+}
+
+
+
+ ._1gDWhTn4ItIcESRSxS5AuC{
+ margin-bottom: -50px;
+}
+
 /*/ Submit button modification /*/
 .surveyBtn.surveyBtn_submit {
 display: inline-block;
-line-height: 1.25;
-padding: 0 1rem !important;
+padding: 6px 12px;
+margin-bottom: 0px;
 font-size: 14px;
-border: 2px solid #2596be;
+border: none;
 font-size: 14px;
-border-radius: 40px;
-transition: all 0.32s ease-in-out;
-padding: 0px 1rem !important;}
-
-.surveyBtn.surveyBtn_submit:hover {
-background-color: #000000 !important; /* Ensure the background turns blue */
-}
-
+border-radius: 0px;
+width: 130px; }
 
 /*/ Next button modification /*/
-surveyBtn.surveyBtn_close {
+.surveyBtn.surveyBtn_close{
 display: inline-block;
-line-height: 1.25;
-padding: 0 1rem !important;
+padding: 6px 12px;
+margin-bottom: 0px;
 font-size: 14px;
-border: 2px solid #2596be;
+border: none;
 font-size: 14px;
-border-radius: 40px;
-transition: all 0.32s ease-in-out;
-padding: 0px 1rem !important;}
-
-.surveyBtn.surveyBtn_close:hover {
-background-color: #000000 !important; /* Ensure the background turns blue */
-}
-
+border-radius: 0px;
+width: 130px;
 border: 1px solid #C7A979;
 }
 
@@ -40,12 +38,12 @@ border: 1px solid #C7A979;
 --typography-fontFamily:'Cairo';
 --powered-by-display: none;
 --questions-spacing: 5px;
---palette-rating-number-selected: #468077;
---palette-rating-number-hover: #468077;
+--palette-rating-number-selected: #c7a979;
+--palette-rating-number-hover: #747474;
 --palette-action-hover : transparent;
---palette-typography-body: #468077;
---palette-typography-headline: #468077;
---palette-core-outline: #468077; 
+--palette-typography-body: #747474;
+--palette-typography-headline: #747474;
+--palette-core-outline: #747474; 
 --palette-core-primary: #ffffff}
 
 
@@ -53,6 +51,18 @@ border: 1px solid #C7A979;
   display: none; }
 /*/ CSAT And NPS Alignement and Colors /*/
 
+
+._1_7PScJ_jiqe-TBSrlCh24 ._3_foUkwcSeMY2vBraukrvR{
+    width: 40px;
+    height: 40px;
+ }
+
+.Ratings span label{
+    height: 40px;
+    width: 40px;
+    padding-top: 5px !important;
+    font-size: 14px;
+}
 
 
 .Ratingsanshor> div{
@@ -63,15 +73,15 @@ border: 1px solid #C7A979;
 
 .Ratingsanshor> div > div{
     display: -webkit-inline-box;
-    --palette-rating-custom-hover: #468077;
-    --palette-rating-custom-selected: #468077;
-    --palette-rating-custom-selected-outline: #ffffff;
-    --palette-rating-custom-outline: #8cb0ab;
+    --palette-rating-custom-hover: #c7a979;
+    --palette-rating-custom-selected: #c7a979;
+    --palette-rating-custom-selected-outline: #c7a979;
+    --palette-rating-custom-outline: #dfdfdf;
     display: flex;
     justify-content: center;
     cursor: pointer;
     transition: color 0.2s ease;
-    --palette-core-components: #ffffff;
+    --palette-core-components: #dfdfdf;
 }
 
 /* Apply hover effect to the hovered star */
@@ -80,6 +90,8 @@ border: 1px solid #C7A979;
     --palette-rating-custom-outline: transparent;
 
 }
+
+
 
 .Ratingsanshor p.ratingMinLabel {
     text-align: center !important;
@@ -92,7 +104,6 @@ border: 1px solid #C7A979;
 html[lang="ar"] .Ratingsanshor> div > div{
     direction: rtl;
 }
-
 
 
 .mediumSurvey ._37oPR5iD8dKjivrJy_y6Vq ._3_foUkwcSeMY2vBraukrvR{
@@ -116,8 +127,6 @@ margin-left: 10px;
 max-width: 35%;  
 margin-bottom: -10px; 
 }
-
-
 
 
  /*/ Mobile displayform /*/
