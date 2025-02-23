@@ -45,7 +45,7 @@ margin-bottom: 10PX;
 }
 
 .Ratingsanshor > div > div:hover {
---palette-rating-custom-outline: #8cb0ab;
+--palette-rating-custom-outline: #007e97;
 }
 
 .Ratingsanshor > div > div{
@@ -54,6 +54,8 @@ margin-bottom: 10PX;
     display: flex;
     justify-content: center;
 }
+
+
 
 .Comment > div > div{
     margin-top: 5px;
@@ -88,7 +90,7 @@ border-radius: 40px;
 display: inline-block;
 transition: all 0.32s ease-in-out;
 font-size: 14px;
-border: 1px solid #8cb0ab}
+border: 2px solid #007e97}
 
 .surveyBtn.surveyBtn_submit:hover {
 background-color: #000000 !important; /* Ensure the background turns blue */
@@ -101,7 +103,7 @@ display: inline-block;
 -webkit-transition: all 0.32s ease-in-out;
 transition: all 0.32s ease-in-out;
 font-size: 12px;
-border: 1px solid #8cb0ab}
+border: 2px solid #007e97}
 
 .surveyBtn.surveyBtn_close:hover {
 background-color: #000000 !important; /* Ensure the background turns blue */
@@ -116,8 +118,6 @@ max-width: 100%}
 form footer {
     margin-top: -10px;
 }
-
-
 
 .Ratingsanshor p.ratingMinLabel {
     text-align: center !important;
