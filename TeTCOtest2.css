@@ -1,4 +1,4 @@
------
+
 .Ratingsanshor> div > div{
     display: -webkit-inline-box;
     --palette-rating-custom-hover: #c7a979;
@@ -32,7 +32,7 @@
 html[lang="ar"] .Ratingsanshor> div > div{
     direction: rtl;
 }
-----
+
 
 :root{
 --powered-by-display: none;
