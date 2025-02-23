@@ -3,24 +3,36 @@
 /*/ Submit button modification /*/
 .surveyBtn.surveyBtn_submit {
 display: inline-block;
-padding: 6px 12px;
-margin-bottom: 0px;
+line-height: 1.25;
+padding: 0 1rem !important;
+font-size: 14px #2596be;
+border: 2px solid ;
 font-size: 14px;
-border: none;
-font-size: 14px;
-border-radius: 0px;
-width: 130px; }
+border-radius: 40px;
+transition: all 0.32s ease-in-out;
+padding: 0px 1rem !important;}
+
+.surveyBtn.surveyBtn_submit:hover {
+background-color: #000000 !important; /* Ensure the background turns blue */
+}
+
 
 /*/ Next button modification /*/
-.surveyBtn.surveyBtn_close{
+surveyBtn.surveyBtn_close {
 display: inline-block;
-padding: 6px 12px;
-margin-bottom: 0px;
+line-height: 1.25;
+padding: 0 1rem !important;
+font-size: 14px #2596be;
+border: 2px solid ;
 font-size: 14px;
-border: none;
-font-size: 14px;
-border-radius: 0px;
-width: 130px;
+border-radius: 40px;
+transition: all 0.32s ease-in-out;
+padding: 0px 1rem !important;}
+
+.surveyBtn.surveyBtn_close:hover {
+background-color: #000000 !important; /* Ensure the background turns blue */
+}
+
 border: 1px solid #C7A979;
 }
 
@@ -28,12 +40,12 @@ border: 1px solid #C7A979;
 --typography-fontFamily:'Cairo';
 --powered-by-display: none;
 --questions-spacing: 5px;
---palette-rating-number-selected: #c7a979;
---palette-rating-number-hover: #747474;
+--palette-rating-number-selected: #468077;
+--palette-rating-number-hover: #468077;
 --palette-action-hover : transparent;
---palette-typography-body: #747474;
---palette-typography-headline: #747474;
---palette-core-outline: #747474; 
+--palette-typography-body: #468077;
+--palette-typography-headline: #468077;
+--palette-core-outline: #468077; 
 --palette-core-primary: #ffffff}
 
 
@@ -51,15 +63,15 @@ border: 1px solid #C7A979;
 
 .Ratingsanshor> div > div{
     display: -webkit-inline-box;
-    --palette-rating-custom-hover: #c7a979;
-    --palette-rating-custom-selected: #c7a979;
-    --palette-rating-custom-selected-outline: #c7a979;
-    --palette-rating-custom-outline: #dfdfdf;
+    --palette-rating-custom-hover: #468077;
+    --palette-rating-custom-selected: #468077;
+    --palette-rating-custom-selected-outline: #ffffff;
+    --palette-rating-custom-outline: #8cb0ab;
     display: flex;
     justify-content: center;
     cursor: pointer;
     transition: color 0.2s ease;
-    --palette-core-components: #dfdfdf;
+    --palette-core-components: #ffffff;
 }
 
 /* Apply hover effect to the hovered star */
