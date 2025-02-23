@@ -19,8 +19,6 @@
 
 }
 
-
-
 .Ratingsanshor p.ratingMinLabel {
     text-align: center !important;
 }
@@ -37,6 +35,7 @@ html[lang="ar"] .Ratingsanshor> div > div{
 :root{
 --powered-by-display: none;
 --questions-spacing: 10px;
+--palette-action-hover : transparent;
 --palette-rating-number-selected: #11b58e;
 --palette-rating-number-hover: #11b58e;
 --palette-typography-body: #000000;
@@ -56,36 +55,6 @@ form footer {
 .Logo > div > img{
 max-width: 50%;  
 margin-bottom: 10PX; 
-}
-
-/*/ Stars Alignement and Colors /*/
-
-
-.Ratingsanshor> div{
-    text-align: center !important;
-    display: initial;
-    }
-
-.Ratingsanshor> div > div{
-    margin-top: 20px;
-    --palette-rating-custom-hover: #468077;
-    --palette-rating-custom-selected: #468077;
-    --palette-core-primary: #ffffff;
-    --palette-rating-custom-selected-outline: #ffffff;
-    --palette-rating-custom-outline: #8cb0ab;
-    display: flex;
-    justify-content: center;
-}
-
-.Ratingsanshor > div > div:hover {
---palette-rating-custom-outline: #007e97;
-}
-
-.Ratingsanshor > div > div{
-    margin-top: 5px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
 }
 
 
