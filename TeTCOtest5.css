@@ -44,6 +44,11 @@ margin-bottom: 10PX;
     justify-content: center;
 }
 
+.Ratingsanshor> div > div:hover{
+    --palette-rating-custom-outline: #8cb0ab;
+
+}
+
 .Ratingsanshor > div > div{
     margin-top: 5px;
     margin-bottom: 10px;
@@ -83,7 +88,8 @@ text-decoration: none;
 border-radius: 40px;
 display: inline-block;
 transition: all 0.32s ease-in-out;
-font-size: 14px;}
+font-size: 14px;
+border: #8cb0ab}
 
 .surveyBtn.surveyBtn_submit:hover {
 background-color: #000000 !important; /* Ensure the background turns blue */
@@ -95,7 +101,8 @@ border-radius: 40px;
 display: inline-block;
 -webkit-transition: all 0.32s ease-in-out;
 transition: all 0.32s ease-in-out;
-font-size: 14px;}
+font-size: 12px;
+border: #8cb0ab}
 
 .surveyBtn.surveyBtn_close:hover {
 background-color: #000000 !important; /* Ensure the background turns blue */
