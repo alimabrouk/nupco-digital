@@ -1,0 +1,156 @@
+
+
+:root{
+--powered-by-display: none;
+--questions-spacing: 10px;
+--palette-rating-number-selected: #11b58e;
+--palette-rating-number-hover: #11b58e;
+--palette-action-hover : transparent;
+--palette-typography-body: #000000;
+--palette-typography-headline:#000000;
+--palette-core-outline: #e83f4b; 
+--palette-core-primary: #000000}
+
+.surveyX {disply: none;}
+
+form footer {
+    margin-top: -10px;
+}
+
+
+/*/ Logo width /*/
+
+.Logo > div > img{
+max-width: 50%;  
+margin-bottom: 10PX; 
+}
+
+/*/ Stars Alignement and Colors /*/
+
+
+.Ratingsanshor> div{
+    text-align: center !important;
+    display: initial;
+    }
+
+.Ratingsanshor> div > div{
+    margin-top: 20px;
+    --palette-rating-custom-hover: #468077;
+    --palette-rating-custom-selected: #468077;
+    --palette-core-primary: #ffffff;
+    --palette-rating-custom-selected-outline: #ffffff;
+    --palette-rating-custom-outline: #8cb0ab;
+    display: flex;
+    justify-content: center;
+}
+
+.Ratingsanshor > div > div{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.Comment > div > div{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+/*/ Submit button modification /*/
+
+.thankYouPageButtonPreview{
+    display: none;
+}
+<button id="concludeButton">Conclure</button>
+.concludeButton {
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border: none;  /* No border around the button */
+    padding: 10px 20px;  /* Adjust padding for better size */
+    font-size: 16px;  /* Text size */
+    cursor: pointer;  /* Cursor changes to a pointer when hovered */
+}
+
+
+.
+
+/*/ Submit button modification /*/
+.surveyBtn.surveyBtn_submit {
+line-height: 1.25;
+text-decoration: none;
+border-radius: 40px;
+display: inline-block;
+transition: all 0.32s ease-in-out;
+font-size: 1rem;}
+
+.surveyBtn.surveyBtn_submit:hover {
+background-color: #000000 !important; /* Ensure the background turns blue */
+}
+.surveyBtn.surveyBtn_close {
+line-height: 1.25;
+text-decoration: none;
+border-radius: 40px;
+display: inline-block;
+-webkit-transition: all 0.32s ease-in-out;
+transition: all 0.32s ease-in-out;
+font-size: 1rem;}
+
+.surveyBtn.surveyBtn_close:hover {
+background-color: #000000 !important; /* Ensure the background turns blue */
+}
+
+._207sw0FPxzBQQBPqaDdUpd > div{
+max-width: 100%}
+
+
+.surveyX {display:none; }
+
+form footer {
+    margin-top: -10px;
+}
+
+
+
+.Ratingsanshor p.ratingMinLabel {
+    text-align: center !important;
+}
+
+.Ratingsanshor p.ratingMaxLabel{
+    text-align: center !important;
+}
+
+/*/ Logo width /*/
+
+._2wEE-RNoShvEqNpNB4ISFm {
+max-width: 50%;
+}
+
+
+
+ /*/ Mobile displayform /*/
+/*/ Logo width /*/
+
+
+.mobile form .surveyBtn.surveyBtn_back{
+    font-size: 16px;
+}
+.mobile form .surveyBtn.surveyBtn_next{
+    font-size: 16px;
+}
+.mobile form .surveyBtn.submit{
+    font-size: 16px;
+}
+
+.mobile form ._37oPR5iD8dKjivrJy_y6Vq ._3_foUkwcSeMY2vBraukrvR{
+font-size:10px }
+
+/* on mobile make form smaller to expose website underneath so it doesn't occupy the whole screen */
+#liveForm .kpl_builder .kpl-live-mobile {
+    border: none;
+    box-shadow: none;
+    height: 92% !important;
+    width: 95% !important;
+    margin-top: 27px;
+}
