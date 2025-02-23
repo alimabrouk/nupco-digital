@@ -5,8 +5,8 @@
 display: inline-block;
 line-height: 1.25;
 padding: 0 1rem !important;
-font-size: 14px #2596be;
-border: 2px solid ;
+font-size: 14px;
+border: 2px solid #2596be;
 font-size: 14px;
 border-radius: 40px;
 transition: all 0.32s ease-in-out;
@@ -22,8 +22,8 @@ surveyBtn.surveyBtn_close {
 display: inline-block;
 line-height: 1.25;
 padding: 0 1rem !important;
-font-size: 14px #2596be;
-border: 2px solid ;
+font-size: 14px;
+border: 2px solid #2596be;
 font-size: 14px;
 border-radius: 40px;
 transition: all 0.32s ease-in-out;
@@ -80,8 +80,6 @@ border: 1px solid #C7A979;
     --palette-rating-custom-outline: transparent;
 
 }
-
-
 
 .Ratingsanshor p.ratingMinLabel {
     text-align: center !important;
