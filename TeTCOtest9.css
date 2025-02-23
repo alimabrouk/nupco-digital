@@ -1,31 +1,30 @@
+.Ratingsanshor> div{
+    text-align: center !important;
+    display: initial;
+    }
 
 .Ratingsanshor> div > div{
-    display: -webkit-inline-box;
-    --palette-rating-custom-hover: #c7a979;
-    --palette-rating-custom-selected: #c7a979;
-    --palette-rating-custom-selected-outline: #c7a979;
-    --palette-rating-custom-outline: #dfdfdf;
+    margin-top: 20px;
+    --palette-rating-custom-hover: #468077;
+    --palette-rating-custom-selected: #468077;
+    --palette-core-primary: #ffffff;
+    --palette-rating-custom-selected-outline: #ffffff;
+    --palette-rating-custom-outline: #8cb0ab;
     display: flex;
     justify-content: center;
-    cursor: pointer;
-    transition: color 0.2s ease;
-    --palette-core-components: #dfdfdf;
 }
 
-/* Apply hover effect to the hovered star */
-.Ratingsanshor > div > div:hover{
-
-    --palette-rating-custom-outline: transparent;
-
+.Ratingsanshor > div > div:hover {
+--palette-rating-custom-outline: #007e97;
 }
 
-.Ratingsanshor p.ratingMinLabel {
-    text-align: center !important;
+.Ratingsanshor > div > div{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
-.Ratingsanshor p.ratingMaxLabel{
-    text-align: center !important;
-}
 
 html[lang="ar"] .Ratingsanshor> div > div{
     direction: rtl;
