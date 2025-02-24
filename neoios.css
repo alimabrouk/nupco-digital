@@ -1,0 +1,99 @@
+
+
+:root { 
+    --palette-core-primary: #049aba; 
+    --rating-squares-border-color: #01f0ff;
+    --questions-spacing: 15px;
+    --powered-by-display: none;
+    --palette-action-hover: none !important;
+}
+
+
+/* Submit button styling */
+.surveyBtn {
+    display: inline-block;
+    margin-bottom: 0px;
+    font-size: 14px;
+    border: none;
+    border-radius: 50px;
+    width: 300px;
+    height: 40px;
+    gap: 12px;
+    text-align: center; /* Ensure button text aligns in center */
+	
+}
+neb-rating .neb-rating span {
+    outline: none;
+}
+.neb-rating span {
+    outline: none;
+}
+.mobile-form-revamp.mobile-wcag-support neb-rating .neb-rating .neb-rating-value {
+    border: none !important;
+}
+
+.Ratingsanshor{
+  
+ border: none !important;
+ outline: none;
+}
+
+html[lang="ar"] .Ratingsanshor   {
+    direction: rtl; /* Set RTL direction for Arabic language */
+    text-align: right; /* Aligns text to the right in RTL */
+}
+
+html[lang="ar"] .MCanchor  {
+    direction: rtl; /* Set RTL direction for Arabic language */
+    text-align: right; /* Aligns text to the right in RTL */
+}
+
+html[lang="ar"] .Commentanchor  {
+    direction: rtl; /* Set RTL direction for Arabic language */
+    text-align: right; /* Aligns text to the right in RTL */
+
+}
+
+html[lang="ar"]  .Ratingsanshor label p {
+    display: flex;
+    flex-direction: row-reverse; /* Reverse the order of inline content for RTL */
+    align-items: center;
+}
+
+html[lang="ar"]  .Ratingsanshor label p .requiredMark {
+    order: -1; /* Moves the asterisk to the start of the content */
+    margin-right: 4px; /* Adjust spacing between the asterisk and the text */
+    color: transparent;
+}
+
+
+.Ratingsanshor span label{
+    border: 1.5px ; /* Keeps the border style */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; /* Makes the label circular */
+    padding: 1px 1px 1px 1px !important;
+    font-size: 16px;
+    background-color: transparent; /* Default transparent background */
+
+
+}
+
+/* Styling for Multiple choices labels */
+.MCanchor > span > ul > li {
+    font-family: 'IBM Plex Sans Arabic Light', sans-serif; /* Ensure each choice has the correct font */
+    font-size: 16px; /* Adjust font size if necessary */
+
+}
+/* Resizing the logo */
+fieldset div > img {
+    height: 50px !important;
+
+}
+
+/* Center Align the Rating(Stars and Smileys) */
+
+.Ratingsanshor label + div > div{
+    width: 100% !important;
+    text-align: center;
+}
