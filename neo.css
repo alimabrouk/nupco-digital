@@ -14,10 +14,10 @@ color: #e83f4b;
 :root{
 --powered-by-display: none;
 --questions-spacing: 5px;
---palette-rating-number-selected: #11b58e;
---palette-rating-number-hover: #2596be;
+--palette-rating-number-selected: #049aba;
+--palette-rating-number-hover: #01f0ff;
 --palette-action-hover : transparent;
---palette-core-outline: #2596be; 
+--palette-core-outline: #01f0ff; 
 --palette-core-primary: #ffffff;}
 
 /*/ Submit button modification /*/
@@ -26,7 +26,7 @@ display: inline-block;
 padding: 6px 12px;
 font-size: 14px;
 border-radius: 40px;
-border: 2px solid #2596be;
+border: 2px solid #01f0ff;
 transition: all 0.32s ease-in-out;}
 
 .surveyBtn.surveyBtn_submit:hover {
@@ -39,7 +39,7 @@ display: inline-block;
 padding: 6px 12px;
 font-size: 14px;
 border-radius: 40px;
-border: 2px solid #2596be;
+border: 2px solid #01f0ff;
 transition: all 0.32s ease-in-out;}
 
 .surveyBtn.surveyBtn_close:hover {
@@ -72,10 +72,10 @@ background-color: #11b58e !important; /* Ensure the background turns blue */
 
 .Ratingsanshor> div > div{
     display: -webkit-inline-box;
-    --palette-rating-custom-hover: #11b58e;
-    --palette-rating-custom-selected: #11b58e;
-    --palette-rating-custom-selected-outline: #11b58e;
-    --palette-rating-custom-outline: #11b58e;
+    --palette-rating-custom-hover: #01b9cb;
+    --palette-rating-custom-selected: #01b9cb;
+    --palette-rating-custom-selected-outline: #01b9cb;
+    --palette-rating-custom-outline: #01b9cb;
     display: flex;
     justify-content: center;
     cursor: pointer;
