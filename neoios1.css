@@ -15,22 +15,6 @@ html[lang="ar"] {
 }
 
 
-.surveyBtn {
-    background: #01f0ff;
-    border: none;
-    font-size: 14px;
-    border-radius: .5rem;
-    display: inline-block;
-    padding: 0 1rem !important;
-    width: 380px;
-    height: 40px;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-    transition: background-color .2s ease-out;
-}
-
-
 neb-rating .neb-rating span {
     outline: none;
 }
@@ -69,8 +53,6 @@ neb-rating .neb-rating span {
 .logo{
     height: 150px !important;
     width: 150px !important;
-    margin-bottom: -50px;
-    margin-top: -10px;
 }
 
 /* Resizing the logo */
