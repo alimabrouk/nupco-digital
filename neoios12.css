@@ -8,7 +8,10 @@
     --palette-action-hover: none !important;
 }
 
-
+.Ratingsanshor label + div > div{
+    width: 100% !important;
+    text-align: center;
+}
 html[lang="ar"] {
     direction: rtl; /* Set RTL direction for Arabic language */
     text-align: right; /* Aligns text to the right in RTL */
@@ -53,6 +56,7 @@ neb-rating .neb-rating span {
 .logo{
     height: 150px !important;
     width: 150px !important;
+    margin-left: 50px;
 }
 
 /* Resizing the logo */
