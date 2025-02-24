@@ -1,5 +1,5 @@
 ._2wEE-RNoShvEqNpNB4ISFm {
-max-width: 60%;
+max-width: 40%;
 margin-bottom: 10px;
 }
 
@@ -30,7 +30,7 @@ border: 2px solid #01f0ff;
 transition: all 0.32s ease-in-out;}
 
 .surveyBtn.surveyBtn_submit:hover {
-background-color: #11b58e !important; /* Ensure the background turns blue */
+background-color: #7df5fa !important; /* Ensure the background turns blue */
 }
 
 /*/ Submit button modification /*/
@@ -43,7 +43,7 @@ border: 2px solid #01f0ff;
 transition: all 0.32s ease-in-out;}
 
 .surveyBtn.surveyBtn_close:hover {
-background-color: #11b58e !important; /* Ensure the background turns blue */
+background-color: #7df5fa !important; /* Ensure the background turns blue */
 }
 
 .surveyX { 
