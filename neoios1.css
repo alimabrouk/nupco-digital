@@ -1,0 +1,79 @@
+
+
+:root { 
+    --palette-core-primary: #049aba; 
+    --rating-squares-border-color: #01f0ff;
+    --questions-spacing: 15px;
+    --powered-by-display: none;
+    --palette-action-hover: none !important;
+}
+
+
+html[lang="ar"] {
+    direction: rtl; /* Set RTL direction for Arabic language */
+    text-align: right; /* Aligns text to the right in RTL */
+}
+
+
+.surveyBtn {
+    background: #01f0ff;
+    border: none;
+    font-size: 14px;
+    border-radius: .5rem;
+    display: inline-block;
+    padding: 0 1rem !important;
+    width: 380px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    transition: background-color .2s ease-out;
+}
+
+
+neb-rating .neb-rating span {
+    outline: none;
+}
+.neb-rating span {
+    outline: none;
+}
+.mobile-form-revamp.mobile-wcag-support neb-rating .neb-rating .neb-rating-value {
+    border: none !important;
+}
+
+.Ratingsanshor{
+ border: none !important;
+ outline: none;
+}
+
+.Ratingsanshor span {
+    background-color: #ffffff;
+}
+
+.Ratingsanshor span label {
+    border: 1.5px solid rgba(0, 0, 0, 0.1); /* Keeps the border style */
+    height: 40px;
+    width: 40px;
+    padding-top: 3px !important;
+    border-radius: 50%; /* Makes the label circular */
+    display: flex; /* Ensures content is centered */
+    align-items: center;
+    justify-content: center;
+}
+
+.Ratingsanshor .fa-asterisk:before {
+  content: '' !important;
+}
+
+
+.logo{
+    height: 150px !important;
+    width: 150px !important;
+    margin-bottom: -50px;
+    margin-top: -10px;
+}
+
+/* Resizing the logo */
+fieldset div > img {
+    height: 10px !important;
+}
