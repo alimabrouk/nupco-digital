@@ -130,6 +130,10 @@ margin-left: 10px;
 }
 .MCanchor > span > ul{
 margin-top: 15px;
+--palette-action-hover: transparent;
+--palette-core-primary: #ffffff;
+--palette-group-mark-background:#049aba;
+--palette-rating-number-selected:#049aba;
 --palette-action-active:transparent;
 --palette-core-outline: lightgray;
     min-width: auto;
