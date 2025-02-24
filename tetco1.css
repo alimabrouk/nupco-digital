@@ -26,12 +26,12 @@ color: #e83f4b;
 display: inline-block;
 padding: 14px 24px 16px;
 font-size: 14px;
-border-radius: 42px;
+border-radius: 40px;
 border: 2px solid #01f0ff;
 transition: all 0.32s ease-in-out;}
 
 .surveyBtn.surveyBtn_submit:hover {
-backgroud-color: #11B58E;
+background-color: #11B58E !important; /* Ensure the background turns blue */
 }
 
 
@@ -40,13 +40,14 @@ backgroud-color: #11B58E;
 display: inline-block;
 padding: 14px 24px 16px;
 font-size: 14px;
-border-radius: 42px;
+border-radius: 40px;
 border: 2px solid #01f0ff;
 transition: all 0.32s ease-in-out;}
 
 .surveyBtn.surveyBtn_close:hover {
-backgroud-color: #11B58E;
+background-color: #11B58E !important; /* Ensure the background turns blue */
 }
+
 
 .surveyX { 
   display: none; }
