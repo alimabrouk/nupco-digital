@@ -11,6 +11,7 @@ margin-top: 0px;
 ._2x6S50Ozibu2fOMgF5qDzt p {
 color: #e83f4b;
 }
+
 :root{
 --powered-by-display: none;
 --questions-spacing: 5px;
@@ -29,9 +30,6 @@ border-radius: 40px;
 border: 2px solid #01f0ff;
 transition: all 0.32s ease-in-out;}
 
-.surveyBtn.surveyBtn_submit:hover {
-background-color: #7df5fa !important; /* Ensure the background turns blue */
-}
 
 /*/ Submit button modification /*/
 .surveyBtn.surveyBtn_close {
@@ -42,9 +40,6 @@ border-radius: 40px;
 border: 2px solid #01f0ff;
 transition: all 0.32s ease-in-out;}
 
-.surveyBtn.surveyBtn_close:hover {
-background-color: #7df5fa !important; /* Ensure the background turns blue */
-}
 
 .surveyX { 
   display: none; }
@@ -128,10 +123,11 @@ margin-left: 10px;
     width: 95% !important;
     margin-top: 27px;
 }
+
 .MCanchor > span > ul{
 margin-top: 15px;
---palette-action-hover: transparent;
---palette-core-primary: #ffffff;
+--palette-action-hover: #049aba;
+--palette-core-primary: #049aba;
 --palette-group-mark-background:#049aba;
 --palette-rating-number-selected:#049aba;
 --palette-action-active:transparent;
