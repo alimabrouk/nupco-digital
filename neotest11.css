@@ -19,7 +19,7 @@ color: #e83f4b;
 --palette-rating-number-hover: #01f0ff;
 --palette-action-hover : transparent;
 --palette-core-outline: #01f0ff; 
---palette-core-primary: #ffffff;}
+--palette-core-primary: #049aba;}
 
 /*/ Submit button modification /*/
 .surveyBtn.surveyBtn_submit {
@@ -96,11 +96,6 @@ transition: all 0.32s ease-in-out;}
 
 html[lang="ar"] .Ratingsanshor> div > div{
     direction: rtl;
-}
-
-
-.mediumSurvey ._37oPR5iD8dKjivrJy_y6Vq ._3_foUkwcSeMY2vBraukrvR{
-border-radius: 1px;
 }
 
 .directionRightToLeft .LJ5dDI1qRFssk1ka4roCr ._3_foUkwcSeMY2vBraukrvR:first-child{
