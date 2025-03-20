@@ -66,6 +66,9 @@ neb-rating .neb-rating span {
   content: '' !important;
 }
 
+.Commentanchor {   
+margin-bottom: -50px;
+}
 
 .logo{
     height: 120px !important;
