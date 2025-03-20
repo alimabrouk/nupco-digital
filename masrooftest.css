@@ -74,8 +74,8 @@ margin-bottom: 20px;
 }
 
 /* Resizing the logo */
-fieldset div > img {
-    height: 50px !important;
+.logo {
+    width: 50px !important;
 
 }
 
