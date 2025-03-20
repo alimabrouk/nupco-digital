@@ -74,13 +74,9 @@ margin-bottom: 20px;
 }
 
 .logo{
-    height: 150px !important;
-    width: 150px !important;
+    height: 200px !important;
+    width: 200px !important;
     margin-bottom: -50px;
     margin-top: -10px;
 }
 
-/* Resizing the logo */
-fieldset div > img {
-    height: 10px !important;
-}
