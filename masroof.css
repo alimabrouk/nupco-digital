@@ -1,18 +1,34 @@
-:root { 
-    --palette-core-primary: #049aba; 
-    --rating-squares-border-color: #01f0ff;
-    --questions-spacing: 15px;
-    --powered-by-display: none;
-    --palette-action-hover: none !important;
-}
 
-.Ratingsanshor label + div > div{
-    width: 100% !important;
-    text-align: center;
-}
+:root { 
+    --palette-core-primary: #6CC7F0; 
+    --rating-squares-border-color: #ffffff;
+    --powered-by-display: none;
+    --questions-spacing: 10px;
+    --palette-action-hover: none !important;
+} 
+
 html[lang="ar"] {
     direction: rtl; /* Set RTL direction for Arabic language */
     text-align: right; /* Aligns text to the right in RTL */
+}
+
+
+.surveyBtn {
+    background-color: #6CC7F0;  
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 30px;
+    font-family: Readexpro,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color .2s;
+    display: flex;
+    }
+.surveyBtn:hover {
+background-color: #A1A1A1 !important; /* Ensure the background turns blue */
 }
 
 
@@ -26,16 +42,16 @@ neb-rating .neb-rating span {
     border: none !important;
 }
 
-.Ratingsanshor{
+.CSATanchor{
  border: none !important;
  outline: none;
 }
 
-.Ratingsanshor span {
+.CSATanchor span {
     background-color: #ffffff;
 }
 
-.Ratingsanshor span label {
+.CSATanchor span label {
     border: 1.5px solid rgba(0, 0, 0, 0.1); /* Keeps the border style */
     height: 40px;
     width: 40px;
@@ -46,7 +62,7 @@ neb-rating .neb-rating span {
     justify-content: center;
 }
 
-.Ratingsanshor .fa-asterisk:before {
+.CSATanchor .fa-asterisk:before {
   content: '' !important;
 }
 
@@ -54,7 +70,8 @@ neb-rating .neb-rating span {
 .logo{
     height: 150px !important;
     width: 150px !important;
-    margin-left: 78px;
+    margin-bottom: -50px;
+    margin-top: -10px;
 }
 
 /* Resizing the logo */
