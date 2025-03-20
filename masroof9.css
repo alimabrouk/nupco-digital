@@ -55,7 +55,6 @@ neb-rating .neb-rating span {
     border: 1.5px solid rgba(0, 0, 0, 0.1); /* Keeps the border style */
     height: 40px;
     width: 40px;
-    padding-top: 3px !important;
     border-radius: 50%; /* Makes the label circular */
     display: flex; /* Ensures content is centered */
     align-items: center;
