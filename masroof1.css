@@ -74,6 +74,15 @@ margin-top: -1000px;
 }
 
 /* Resizing the logo */
-.logo{   
-max-width: -1000%;
+
+.logo{
+    height: 150px !important;
+    width: 150px !important;
+    margin-bottom: -50px;
+    margin-top: -10px;
+}
+
+/* Resizing the logo */
+fieldset div > img {
+    height: 10px !important;
 }
