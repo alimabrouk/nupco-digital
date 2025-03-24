@@ -74,13 +74,6 @@ margin-top: -1000px;
 }
 
 /* Resizing the logo */
-
-.logo{
-    height: 10px !important;
-    width: 10px !important;
-}
-
-/* Resizing the logo */
 fieldset div > img {
     height: 10px !important;
 }
