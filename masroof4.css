@@ -75,5 +75,5 @@ margin-top: -1000px;
 
 /* Resizing the logo */
 .logo{   
-height: 10px;
+max-height: 20%;
 }
