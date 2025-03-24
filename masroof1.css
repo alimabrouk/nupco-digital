@@ -76,13 +76,11 @@ margin-top: -1000px;
 /* Resizing the logo */
 
 .logo{
-    height: 150px !important;
-    width: 150px !important;
-    margin-bottom: -50px;
-    margin-top: -10px;
+    height: 10px !important;
+    width: 10px !important;
 }
 
 /* Resizing the logo */
 fieldset div > img {
-    height: 1px !important;
+    height: 10px !important;
 }
