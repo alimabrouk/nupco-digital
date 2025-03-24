@@ -74,8 +74,6 @@ margin-bottom: 20px;
 }
 
 /* Resizing the logo */
-.logo {
-    width: 1000px !important;
-
+.logo{
+max-width: 50%;
 }
-
