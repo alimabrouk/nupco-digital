@@ -70,6 +70,24 @@ neb-rating .neb-rating span {
     align-items: center;
     justify-content: center;
 }
+.NPSanchor{
+ border: none !important;
+ outline: none;
+}
+
+.NPSanchor span {
+    background-color: #ffffff;
+}
+
+.NPSanchor span label {
+    border: 1.5px solid #12033A; /* Keeps the border style */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; /* Makes the label circular */
+    display: flex; /* Ensures content is centered */
+    align-items: center;
+    justify-content: center;
+}
 
 .CSATanchor .fa-asterisk:before {
   content: '' !important;
