@@ -72,7 +72,7 @@ margin-bottom: 5px;
 
 
 .logo {
-    max-width: 50%; /* Adjust to your desired size */
+    max-width: 30%; /* Adjust to your desired size */
     height: auto; /* Maintain the aspect ratio */
     display: block; /* Ensure it's displayed as a block element */
     margin-left: auto;
