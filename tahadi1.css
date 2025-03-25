@@ -15,12 +15,12 @@ html[lang="ar"] {
 
 .surveyBtn {
     background-color: #04C9B8; /* Approximate color */
-    border-radius: 50px; /* Or use 9999px for a fully pill-shaped button */
-    padding: 12px 24px; /* Adjust as needed */
+    padding: 10px 20px;
     border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border-radius: 20px; /* Fully rounded corners */
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
     }
 
 
