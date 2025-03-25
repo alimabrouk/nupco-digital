@@ -62,7 +62,7 @@ neb-rating .neb-rating span {
 }
 
 .CSATanchor span label {
-    border: 1.5px solid rgba(0, 0, 0, 0.1); /* Keeps the border style */
+    border: 1.5px solid #12033A; /* Keeps the border style */
     height: 40px;
     width: 40px;
     border-radius: 50%; /* Makes the label circular */
