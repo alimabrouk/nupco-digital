@@ -1,0 +1,80 @@
+
+:root { 
+    --palette-core-primary: #FCD302; 
+    --rating-squares-border-color: #ffffff;
+    --powered-by-display: none;
+    --questions-spacing: 10px;
+    --palette-action-hover: none !important;
+} 
+
+html[lang="ar"] {
+    direction: rtl; /* Set RTL direction for Arabic language */
+    text-align: right; /* Aligns text to the right in RTL */
+}
+
+
+.surveyBtn {
+    background-color: #04C9B8; /* Approximate color */
+    border-radius: 50px; /* Or use 9999px for a fully pill-shaped button */
+    padding: 12px 24px; /* Adjust as needed */
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+
+.surveyBtn:hover {
+background-color: #37108F !important; /* Ensure the background turns blue */
+}
+
+
+neb-rating .neb-rating span {
+    outline: none;
+}
+.neb-rating span {
+    outline: none;
+}
+.mobile-form-revamp.mobile-wcag-support neb-rating .neb-rating .neb-rating-value {
+    border: none !important;
+}
+
+.CSATanchor{
+ border: none !important;
+ outline: none;
+}
+
+.CSATanchor span {
+    background-color: #ffffff;
+}
+
+.CSATanchor span label {
+    border: 1.5px solid #37108F; /* Keeps the border style */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; /* Makes the label circular */
+    display: flex; /* Ensures content is centered */
+    align-items: center;
+    justify-content: center;
+}
+
+.CSATanchor .fa-asterisk:before {
+  content: '' !important;
+}
+
+.Commentanchor {   
+margin-top: 20px;
+}
+
+.Textanchor {   
+margin-bottom: 5px;
+}
+
+
+.logo {
+    max-width: 50%; /* Adjust to your desired size */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Ensure it's displayed as a block element */
+    margin-left: auto;
+    margin-right: auto;
+}
