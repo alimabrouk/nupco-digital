@@ -17,7 +17,7 @@ html[lang="ar"] {
     background-color: #04C9B8; /* Approximate color */
     padding: 10px 20px;
     border: none;
-    border-radius: 20px; /* Fully rounded corners */
+    border-radius: 25px; /* Fully rounded corners */
     cursor: pointer;
     text-align: center;
     display: inline-block;
