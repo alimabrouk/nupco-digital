@@ -14,10 +14,10 @@ html[lang="ar"] {
 
 
 .surveyBtn {
-    background-color: #04C9B8; /* Approximate color */
+    background-color: #37108F; /* Approximate color */
     padding: 10px 20px;
     border: none;
-    border-radius: 25px; /* Fully rounded corners */
+    border-radius: 10px; /* Fully rounded corners */
     cursor: pointer;
     text-align: center;
     display: inline-block;
@@ -25,7 +25,7 @@ html[lang="ar"] {
 
 
 .surveyBtn:hover {
-background-color: #37108F !important; /* Ensure the background turns blue */
+background-color: #04C9B8 !important; /* Ensure the background turns blue */
 }
 
 
