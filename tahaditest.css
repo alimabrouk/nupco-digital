@@ -1,5 +1,13 @@
+@font-face {
+  font-family: 'Effra';
+  font-style: normal;
+  src: url('https://raw.githubusercontent.com/WaelChaar/Fonts/main/Effra_Std_Rg.ttf');
+} 
+
+
 
 :root { 
+    --typography-fontFamily:'Effra';
     --palette-core-primary: #FCD302; 
     --rating-squares-border-color: #ffffff;
     --powered-by-display: none;
