@@ -1,0 +1,378 @@
+
+ @font-face {
+    font-family: 'TheSans-Plain';
+    src: url('https://raw.githubusercontent.com/AmabroukNM/NewMetrics/main/TheSans-Plain.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.LJ5dDI1qRFssk1ka4roCr ._2tHW0cyET9DNu6CMvxGOlL{
+  width: auto;
+}
+
+:root{
+--typography-fontFamily:'TheSans-Plain';
+--powered-by-display: none;
+--questions-spacing: 0px;
+--palette-action-hover: #ffffff;
+--palette-action-hover : transparent;
+--typography-headline-size: 16px;
+--typography-body-size: 14px;
+--thank-you-page-text-spacing: 5px 0 40px 0;
+--palette-typography-body: #383838;
+--palette-typography-headline: #383838;
+--palette-typography-subHeadline: #383838;
+}
+
+.surveyX {color: #5C3A92; }
+
+._2_bGto71qnB6KiVQcvpfp7:before, ._2_bGto71qnB6KiVQcvpfp7:before{
+background-color: #5C3A92;}
+
+._2_bGto71qnB6KiVQcvpfp7:after, ._2_bGto71qnB6KiVQcvpfp7:after{
+background-color: #5C3A92;}
+
+/*/ Logo width /*/
+
+
+
+/*/ Stars Alignement and Colors /*/
+.Ratingsanchor span label{
+    height: 40px;
+    width: 40px;
+    padding-top: 5px !important;
+}
+
+
+.Ratingsanchor> div{
+    text-align: center !important;
+    display: initial;
+    }
+
+.Ratingsanchor> div > div{
+    margin-top: 20px;
+    --palette-rating-custom-hover: #5C3A92;
+    --palette-rating-custom-selected: #5C3A92;
+    --palette-core-primary: #ffffff;
+    --palette-rating-custom-selected-outline: #5C3A92;
+    --palette-rating-custom-outline: #5C3A92;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*/ Logo size/*/
+
+.logo > div > img{
+max-width: 60%;
+}
+
+/*/ CSAT And NPS Alignement and Colors /*/
+
+
+._1_7PScJ_jiqe-TBSrlCh24 ._3_foUkwcSeMY2vBraukrvR{
+    width: 40px;
+    height: 40px;
+ }
+
+.CSATanchor> div{
+    text-align: center !important;
+    display: initial;
+    }
+
+.CSATanchor{
+margin-top: 10px;
+  --palette-rating-number-hover: #7C7C7C;
+  --palette-rating-number-text: #000000;
+  --palette-rating-number-text-selected: #000000;
+  --palette-rating-number-text-selected-hover: #000000;
+  --palette-rating-number-text-hover: #000000;
+  --palette-core-outline: #7C7C7C;
+  --palette-rating-number-selected: #4892a8;
+
+}
+
+
+.CSATanchor:checked {
+  --palette-core-outline: #5C3A92; /* Dark purple border */
+  border: 2px solid #5C3A92 !important;
+}
+
+
+
+
+.CSATanchor p.ratingMinLabel {
+    text-align: center !important;
+    font-size: 15px;
+}
+
+.CSATanchor p.ratingMaxLabel{
+    text-align: center !important;
+    font-size: 15px;
+}
+
+._1_7PScJ_jiqe-TBSrlCh24 ._3_foUkwcSeMY2vBraukrvRR {
+border: 1px solid #5C3A92;
+}
+
+.CSATanchor > div{
+    text-align: center !important;
+    display: initial;
+    }
+
+.CSATanchor > div > div{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.CSATanchor > div > div > div{
+margin-bottom: 25px;
+}
+
+._1_7PScJ_jiqe-TBSrlCh24 ._3_foUkwcSeMY2vBraukrvR {
+width: 35px;
+height: 35px;
+}
+
+
+.NPSanchor {    
+  --palette-rating-number-hover: #125E5E;
+  --palette-rating-number-text: #000000;
+  --palette-rating-number-text-selected: #000000;
+  --palette-rating-number-text-selected-hover: #000000;
+  --palette-rating-number-text-hover: #000000;
+  --palette-core-outline: #125E5E;
+  --palette-rating-number-selected: #28ACAC;
+}
+
+.NPSanchor:nth-child(2) > div {
+    margin-top: 10px;
+}
+
+.NPSanchor p.ratingMinLabel {
+    font-size: 11px;
+}
+
+.NPSanchor p.ratingMaxLabel{
+    font-size: 11px;
+}
+
+
+/*/ Choices sets Alignement and Colors /*/
+
+.Commentanchor{
+   margin-bottom: 15px;
+   --palette-core-outline: #125E5E;
+}
+
+
+.Mcanchor > span > div{
+margin-top: 5px;
+margin-bottom: 2px;
+--palette-action-hover: #4892a8;
+--palette-core-primary: #4892a8;
+--palette-group-mark-background:#4892a8;
+--palette-rating-number-selected:#4892a8;
+--palette-core-primary:#4892a8;
+--palette-action-active:#4892a8;
+--palette-core-outline:#4892a8;
+
+}
+
+
+
+.OpenTextanchor > div{
+margin-top: -20px;
+}
+
+/*/ Section break alignment /*/
+
+.SB> div{
+margin-top: -30px;
+color: #71717A;
+}
+
+[lang="ar"] .SB> div {
+margin-top: 0px;
+color: #71717A;
+}
+
+.Text{
+margin-bottom: 10px;
+}
+
+/*/ Close button modification /*/
+
+.surveyX {display: none;}
+
+.surveyBtn.surveyBtn_close {box-sizing: border-box;
+border: none;
+border-radius: 0px;
+font-size: 18px;
+outline: 0;
+padding: 0px 20px;
+text-align: center;
+width: 100%;
+vertical-align: middle;
+transition: background-color .2s linear;
+zoom: 1;
+border-width: 3px;
+border-style: solid;
+-webkit-box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+text-decoration: none !important;
+height: 35px;
+width: 100px;}
+
+
+/*/ Submit button modification /*/
+.surveyBtn.surveyBtn_submit {
+box-sizing: border-box;
+border: none;
+border-radius: 0px;
+font-size: 18px;
+outline: 0;
+padding: 0px 20px;
+text-align: center;
+width: 100%;
+vertical-align: middle;
+transition: background-color .2s linear;
+zoom: 1;
+border-width: 3px;
+border-style: solid;
+-webkit-box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+text-decoration: none !important;
+height: 35px;
+width: 100px;}
+
+
+    .surveyBtn.surveyBtn_back {box-sizing: border-box;
+border: none;
+border-radius: 0px;
+font-size: 18px;
+outline: 0;
+padding: 0px 20px;
+text-align: center;
+width: 100%;
+vertical-align: middle;
+transition: background-color .2s linear;
+zoom: 1;
+border-width: 3px;
+border-style: solid;
+-webkit-box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+text-decoration: none !important;
+height: 35px;
+width: 100px;}
+
+
+.surveyBtn.surveyBtn_next {box-sizing: border-box;
+border: none;
+border-radius: 0px;
+font-size: 18px;
+outline: 0;
+padding: 0px 20px;
+text-align: center;
+width: 100%;
+vertical-align: middle;
+transition: background-color .2s linear;
+zoom: 1;
+border-width: 3px;
+border-style: solid;
+-webkit-box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+text-decoration: none !important;
+height: 35px;
+width: 100px;}
+
+
+ /*/ Mobile displayform /*/
+/*/ Logo width /*/
+
+.mobile form .Ratingsanchor{
+    margin-top: 130px;
+    text-align: center !important;
+}
+
+.mobile form .CSATanchor{
+     margin-top: 100px;
+     text-align: center !important;
+}
+
+
+.mobile form .CSATanchor{
+    margin-top: 10px;
+}
+
+
+.mobile form .NPSanchor span label{
+    height: 40px;
+    width: 40px;
+}
+
+
+.mobile form .Text1{
+    margin-top: 100px;
+}
+
+.mobile form ._1_7PScJ_jiqe-TBSrlCh24 ._3_foUkwcSeMY2vBraukrvR {
+width: 40px;
+height: 40px;
+}
+
+
+.mobile form .Text2{
+   text-align: center !important;
+}
+.mobile form .surveyBtn.surveyBtn_back{
+    font-size: 16px;
+}
+.mobile form .surveyBtn.surveyBtn_next{
+    font-size: 16px;
+}
+
+.mobile form ._1_7PScJ_jiqe-TBSrlCh24 ._3_foUkwcSeMY2vBraukrvRR {
+border: 2px solid #5C3A92;
+}
+
+.mobile form ._37oPR5iD8dKjivrJy_y6Vq ._3_foUkwcSeMY2vBraukrvR{
+font-size:10px }
+
+/* on mobile make form smaller to expose website underneath so it doesn't occupy the whole screen */
+#liveForm .kpl_builder .kpl-live-mobile {
+    border: none;
+    box-shadow: none;
+    height: 92% !important;
+    width: 95% !important;
+    margin-top: 27px;
+}
+
+
+/* Arabic */
+
+html[lang="ar"] .CSATanchor> div > div{
+    direction: rtl;
+}
+
+html[lang="ar"] .NPSanchor> div > div{
+    direction: rtl;
+}
+
+html[lang="ar"] .NPSanchor p.ratingMinLabel {
+    text-align: right !important;
+}
+
+html[lang="ar"] .NPSanchor p.ratingMaxLabel{
+    text-align: left !important;
+}
+
+
+.directionRightToLeft .LJ5dDI1qRFssk1ka4roCr ._3_foUkwcSeMY2vBraukrvR:first-child{
+margin-left: unset;
+margin-left: 10px;
+}
